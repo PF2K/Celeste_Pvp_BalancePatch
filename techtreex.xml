@@ -30565,7 +30565,7 @@
   <Tech name="PVP_TechHunting1" type="Normal">
     <DBID>5685</DBID>
     <DisplayNameID>68158</DisplayNameID>
-    <Cost resourcetype="Wood">150.0000</Cost>
+    <Cost resourcetype="Wood">100.0000</Cost>
     <Cost resourcetype="Gold">50.0000</Cost>
     <ResearchPoints>30.0000</ResearchPoints>
     <Status>UNOBTAINABLE</Status>

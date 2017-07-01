@@ -50,6 +50,16 @@
       <Rate type="ConvertableSiege">16.000000</Rate>
     </ProtoAction>
   </ProtoUnitOverride>
+   <ProtoUnitOverride name="Eg_Spc_PriestSet">
+    <ProtoAction>
+      <Name>Convert</Name>
+      <MaxRange>28.000000</MaxRange>
+      <Rate type="StandardConvertable">16.000000</Rate>
+      <Rate type="ConvertableCavalry">16.000000</Rate>
+      <Rate type="ConvertableInfantry">16.000000</Rate>
+      <Rate type="ConvertableSiege">16.000000</Rate>
+    </ProtoAction>
+  </ProtoUnitOverride>
   <ProtoUnitOverride name="Eg_Spc_PriestPtah">
     <ProtoAction>
       <Name>Convert</Name>
@@ -330,6 +340,11 @@
     <MaxRunVelocity>15.0000</MaxRunVelocity>
     <Cost resourcetype="Gold">45.0000</Cost>
     <TrainPoints>16.0000</TrainPoints>
+  </ProtoUnitOverride>
+  <ProtoUnitOverride name="Eg_Cav_WarElephant">
+    <Armor type="Ranged" value="0.4000"></Armor>
+    <MaxVelocity>7.0000</MaxVelocity>
+    <MaxRunVelocity>10.5000</MaxRunVelocity>
   </ProtoUnitOverride>
   <ProtoUnitOverride name="Gr_Cav_Podromos">
     <MaxVelocity>11.0000</MaxVelocity>
