@@ -457,10 +457,14 @@
     <MaxRunVelocity>13.50000</MaxRunVelocity>
   </ProtoUnitOverride>
   <ProtoUnitOverride name="Gr_Sie_Ballista">
-   <DamageArea>2.000000</DamageArea>
+  <Name>RangedAttack</Name>
+			<DamageArea>2.000000</DamageArea>
+		</ProtoAction>
   </ProtoUnitOverride>
     <ProtoUnitOverride name="Eg_Sie_Catapult">
-   <DamageArea>2.000000</DamageArea>
+	<Name>RangedAttack</Name>
+			<DamageArea>2.000000</DamageArea>
+		</ProtoAction>
   </ProtoUnitOverride>
    <ProtoUnitOverride name="Pe_Sie_Palintonon">
    <Damage>58.000000</Damage>
