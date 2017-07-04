@@ -12,7 +12,7 @@ Okay so I'm not very good at writing coding tutorials (not good at all, actually
 
 We add in this tech to the tech tree:
 
-><Tech name="PvP_PersiaTechMountedArcher_Upgrade1" type="Normal">
+> <Tech name="PvP_PersiaTechMountedArcher_Upgrade1" type="Normal">
 >    <DBID>5248</DBID>
 >    <DisplayNameID>64619</DisplayNameID>
 >    <Cost resourcetype="Gold">600.0000</Cost>
