@@ -54,10 +54,10 @@
     <ProtoAction>
       <Name>Convert</Name>
       <MaxRange>28.000000</MaxRange>
-      <Rate type="StandardConvertable">16.000000</Rate>
-      <Rate type="ConvertableCavalry">16.000000</Rate>
-      <Rate type="ConvertableInfantry">16.000000</Rate>
-      <Rate type="ConvertableSiege">16.000000</Rate>
+      <Rate type="StandardConvertable">13.000000</Rate>
+      <Rate type="ConvertableCavalry">13.000000</Rate>
+      <Rate type="ConvertableInfantry">13.000000</Rate>
+      <Rate type="ConvertableSiege">13.000000</Rate>
     </ProtoAction>
   </ProtoUnitOverride>
   <ProtoUnitOverride name="Eg_Spc_PriestPtah">
@@ -347,6 +347,7 @@
     <MaxRunVelocity>10.5000</MaxRunVelocity>
   </ProtoUnitOverride>
   <ProtoUnitOverride name="Gr_Cav_Podromos">
+   <Armor type="Ranged" value="0.2000"></Armor>
     <MaxVelocity>11.0000</MaxVelocity>
     <MaxRunVelocity>16.50000</MaxRunVelocity>
   </ProtoUnitOverride>
@@ -400,8 +401,8 @@
     <MaxRunVelocity>15.00000</MaxRunVelocity>
   </ProtoUnitOverride>
   <ProtoUnitOverride name="Pe_Cav_Cataphract">
-    <MaxVelocity>8.0000</MaxVelocity>
-    <MaxRunVelocity>12.00000</MaxRunVelocity>
+    <MaxVelocity>9.0000</MaxVelocity>
+    <MaxRunVelocity>13.50000</MaxRunVelocity>
   </ProtoUnitOverride>
   <ProtoUnitOverride name="Ce_Inf_WoadRaider">
     <MaxHitpoints>270.0000</MaxHitpoints>
@@ -454,5 +455,27 @@
   <ProtoUnitOverride name="Ba_Arc_WarChariot">
     <MaxVelocity>9.0000</MaxVelocity>
     <MaxRunVelocity>13.50000</MaxRunVelocity>
+  </ProtoUnitOverride>
+  <ProtoUnitOverride name="Gr_Sie_Ballista">
+   <DamageArea>2.000000</DamageArea>
+  </ProtoUnitOverride>
+    <ProtoUnitOverride name="Eg_Sie_Catapult">
+   <DamageArea>2.000000</DamageArea>
+  </ProtoUnitOverride>
+   <ProtoUnitOverride name="Pe_Sie_Palintonon">
+   <Damage>58.000000</Damage>
+     	<DamageBonus type ='Building'>4.000000</DamageBonus>
+  </ProtoUnitOverride>
+  <ProtoUnitOverride name="Gr_Sie_Palintonon">
+   <Damage>58.000000</Damage>
+      	<DamageBonus type ='Building'>4.000000</DamageBonus>
+  </ProtoUnitOverride>
+  <ProtoUnitOverride name="Eg_Sie_Trebuchet">
+   <Damage>58.000000</Damage>
+    	<DamageBonus type ='Building'>4.000000</DamageBonus>
+  </ProtoUnitOverride>
+  <ProtoUnitOverride name="Ba_Sie_Palintonon">
+   <Damage>58.000000</Damage>
+	<DamageBonus type ='Building'>4.000000</DamageBonus>
   </ProtoUnitOverride>
 </ProtoUnitOverrides>
