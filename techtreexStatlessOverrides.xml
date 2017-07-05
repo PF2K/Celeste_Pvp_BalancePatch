@@ -51,8 +51,10 @@
   <Tech name="CeltTechPalintonon_Upgrade1">PVP_CeltTechPalintonon_Upgrade1</Tech>
   <Tech name="CeltTechVillager1">PVP_CeltTechVillager1</Tech>
   <Tech name="BabylonTechWarChariot_Upgrade1">PVP_BabylonTechWarChariot_Upgrade1</Tech>
-    
+	<!-- Celeste Balance Changes New Techs (by PF2K)  -->
   <Tech name="GreekCapAge2">PVP_GreekCapAge2</Tech>
   <Tech name="EgyptCapAge2">PVP_EgyptCapAge2</Tech>
+  <Tech name="EgyptCapAge3">PVP_EgyptCapAge3</Tech>
+  <Tech name="EgyptCapAge4">PVP_EgyptCapAge4</Tech>
   <Tech name="PersiaCapAge2">PVP_PersiaCapAge2</Tech>
 </TechTreeOverrides>
