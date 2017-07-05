@@ -19122,10 +19122,10 @@
       <Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
         <Target type="ProtoUnit">Gr_Bldg_TownCenter</Target>
       </Effect>
-      <Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+      <Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
         <Target type="ProtoUnit">Gr_Bldg_TownCenter</Target>
       </Effect>
-      <Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+      <Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
         <Target type="ProtoUnit">Gr_Bldg_TownCenter</Target>
       </Effect>
     </Effects>
@@ -26356,7 +26356,7 @@
     <ResearchPoints>60.0000</ResearchPoints>
     <Status>UNOBTAINABLE</Status>
     <Icon>UserInterface\Icons\Techs\AgeUpL3_ua</Icon>
-    <RolloverTextID>66634</RolloverTextID>
+    <RolloverTextID>110018</RolloverTextID>
     <ContentPack>1</ContentPack>
     <Flag>AgeUpgrade</Flag>
     <Flag>IsAward</Flag>
@@ -26368,10 +26368,10 @@
       <Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
         <Target type="ProtoUnit">Gr_Bldg_TownCenter</Target>
       </Effect>
-      <Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+      <Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
         <Target type="ProtoUnit">Gr_Bldg_TownCenter</Target>
       </Effect>
-      <Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+      <Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
         <Target type="ProtoUnit">Gr_Bldg_TownCenter</Target>
       </Effect>
     </Effects>
@@ -26384,7 +26384,7 @@
     <ResearchPoints>50.0000</ResearchPoints>
     <Status>UNOBTAINABLE</Status>
     <Icon>UserInterface\Icons\Techs\AgeUpL3_ua</Icon>
-    <RolloverTextID>66636</RolloverTextID>
+    <RolloverTextID>110018</RolloverTextID>
     <ContentPack>5</ContentPack>
     <Flag>AgeUpgrade</Flag>
     <Flag>IsAward</Flag>
@@ -26395,10 +26395,10 @@
     </Prereqs>
     <Effects>
       <Effect type="SetAge">Age2</Effect>
-      <Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+      <Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
         <Target type="ProtoUnit">Ce_Bldg_TownCenter</Target>
       </Effect>
-      <Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+      <Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
         <Target type="ProtoUnit">Ce_Bldg_TownCenter</Target>
       </Effect>
       <Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
@@ -26415,7 +26415,7 @@
     <ResearchPoints>60.0000</ResearchPoints>
     <Status>UNOBTAINABLE</Status>
     <Icon>UserInterface\Icons\Techs\AgeUpL3_ua</Icon>
-    <RolloverTextID>66638</RolloverTextID>
+    <RolloverTextID>110018</RolloverTextID>
     <ContentPack>6</ContentPack>
     <Flag>AgeUpgrade</Flag>
     <Flag>IsAward</Flag>
@@ -26424,10 +26424,10 @@
     </Prereqs>
     <Effects>
       <Effect type="SetAge">Age2</Effect>
-      <Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+      <Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
         <Target type="ProtoUnit">Pe_Bldg_TownCenter</Target>
       </Effect>
-      <Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+      <Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
         <Target type="ProtoUnit">Pe_Bldg_TownCenter</Target>
       </Effect>
       <Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
@@ -26444,7 +26444,7 @@
     <ResearchPoints>60.0000</ResearchPoints>
     <Status>UNOBTAINABLE</Status>
     <Icon>UserInterface\Icons\Techs\AgeUpL3_ua</Icon>
-    <RolloverTextID>66640</RolloverTextID>
+    <RolloverTextID>110019</RolloverTextID>
     <ContentPack>22</ContentPack>
     <Flag>AgeUpgrade</Flag>
     <Flag>IsAward</Flag>
@@ -26453,10 +26453,10 @@
     </Prereqs>
     <Effects>
       <Effect type="SetAge">Age2</Effect>
-      <Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+      <Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
         <Target type="ProtoUnit">Ba_Bldg_TownCenter</Target>
       </Effect>
-      <Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+      <Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
         <Target type="ProtoUnit">Ba_Bldg_TownCenter</Target>
       </Effect>
       <Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
@@ -26569,7 +26569,7 @@
     <ResearchPoints>75.0000</ResearchPoints>
     <Status>UNOBTAINABLE</Status>
     <Icon>UserInterface\Icons\Techs\AgeUpL4_ua</Icon>
-    <RolloverTextID>66659</RolloverTextID>
+    <RolloverTextID>110020</RolloverTextID>
     <ContentPack>22</ContentPack>
     <Flag>AgeUpgrade</Flag>
     <Flag>IsAward</Flag>
@@ -31059,4 +31059,160 @@
       </Effect>
     </Effects>
   </Tech>
+   
+  	<!-- Celeste Balance Changes New Techs (by PF2K)  -->
+  
+   <Tech name="PVP_GreekCapAge2" type="Normal">
+    <DBID>3606</DBID>
+    <DisplayNameID>49767</DisplayNameID>
+    <Cost resourcetype="Food">200.0000</Cost>
+    <Cost resourcetype="Wood">200.0000</Cost>
+    <ResearchPoints>45.0000</ResearchPoints>
+    <Status>UNOBTAINABLE</Status>
+    <Icon>UserInterface\Icons\Techs\AgeUpL2_ua</Icon>
+    <RolloverTextID>110022</RolloverTextID>
+    <ContentPack>1</ContentPack>
+    <Flag>AgeUpgrade</Flag>
+    <Flag>IsAward</Flag>
+    <Effects>
+      <Effect type="SetAge">Age1</Effect>
+      <Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+        <Target type="ProtoUnit">AbstractTownCenter</Target>
+      </Effect>
+      <Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+        <Target type="ProtoUnit">AbstractTownCenter</Target>
+      </Effect>
+      <Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
+        <Target type="ProtoUnit">Gr_Bldg_TownCenter</Target>
+      </Effect>
+    </Effects>
+  </Tech>
+  <Tech name="PVP_PersiaCapAge2" type="Normal">
+    <DBID>3606</DBID>
+    <DisplayNameID>49767</DisplayNameID>
+    <Cost resourcetype="Food">200.0000</Cost>
+    <Cost resourcetype="Wood">200.0000</Cost>
+    <ResearchPoints>45.0000</ResearchPoints>
+    <Status>UNOBTAINABLE</Status>
+    <Icon>UserInterface\Icons\Techs\AgeUpL2_ua</Icon>
+    <RolloverTextID>110022</RolloverTextID>
+    <ContentPack>1</ContentPack>
+    <Flag>AgeUpgrade</Flag>
+    <Flag>IsAward</Flag>
+    <Effects>
+      <Effect type="SetAge">Age1</Effect>
+      <Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+        <Target type="ProtoUnit">AbstractTownCenter</Target>
+      </Effect>
+      <Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+        <Target type="ProtoUnit">AbstractTownCenter</Target>
+      </Effect>
+      <Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
+        <Target type="ProtoUnit">Gr_Bldg_TownCenter</Target>
+      </Effect>
+    </Effects>
+  </Tech>
+  <Tech name="PVP_EgyptCapAge2" type="Normal">
+    <DBID>3606</DBID>
+    <DisplayNameID>49767</DisplayNameID>
+    <Cost resourcetype="Food">200.0000</Cost>
+    <Cost resourcetype="Wood">200.0000</Cost>
+    <ResearchPoints>45.0000</ResearchPoints>
+    <Status>UNOBTAINABLE</Status>
+    <Icon>UserInterface\Icons\Techs\AgeUpL2_ua</Icon>
+    <RolloverTextID>110022</RolloverTextID>
+    <ContentPack>1</ContentPack>
+    <Flag>AgeUpgrade</Flag>
+    <Flag>IsAward</Flag>
+    <Effects>
+      <Effect type="SetAge">Age1</Effect>
+      <Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+        <Target type="ProtoUnit">AbstractTownCenter</Target>
+      </Effect>
+      <Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+        <Target type="ProtoUnit">AbstractTownCenter</Target>
+      </Effect>
+      <Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
+        <Target type="ProtoUnit">Gr_Bldg_TownCenter</Target>
+      </Effect>
+    </Effects>
+  </Tech>
+  <Tech name="PVP_EgyptCapAge2" type="Normal">
+    <DBID>3791</DBID>
+    <Status>UNOBTAINABLE</Status>
+    <Icon>UserInterface\Icons\Techs\AgeUpL2_ua</Icon>
+    <RolloverTextID>51400</RolloverTextID>
+    <ContentPack>2</ContentPack>
+    <Flag>AgeUpgrade</Flag>
+    <Flag>IsAward</Flag>
+    <Prereqs>
+      <TypeCount unit="Eg_Bldg_Temple1" count="1.0000" state="aliveState" operator="gte"></TypeCount>
+    </Prereqs>
+    <Effects>
+      <Effect type="SetAge">Age1</Effect>
+      <Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+        <Target type="ProtoUnit">AbstractTownCenter</Target>
+      </Effect>
+      <Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+        <Target type="ProtoUnit">AbstractTownCenter</Target>
+      </Effect>
+      <Effect type="TechStatus" status="active">EgyptRMAge2</Effect>
+      <Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
+        <Target type="ProtoUnit">Eg_Bldg_TownCenter</Target>
+      </Effect>
+    </Effects>
+  </Tech>
+  <Tech name="PVP_EgyptCapAge3" type="Normal">
+    <DBID>3792</DBID>
+    <Status>UNOBTAINABLE</Status>
+    <Icon>UserInterface\Icons\Techs\AgeUpL3_ua</Icon>
+    <RolloverTextID>51401</RolloverTextID>
+    <ContentPack>2</ContentPack>
+    <Flag>IsAward</Flag>
+    <Flag>AgeUpgrade</Flag>
+    <Prereqs>
+      <TechStatus status="Active">EgyptCapAge2</TechStatus>
+      <TypeCount unit="Eg_Bldg_Temple2" count="1.0000" state="aliveState" operator="gte"></TypeCount>
+    </Prereqs>
+    <Effects>
+      <Effect type="SetAge">Age2</Effect>
+      <Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
+        <Target type="ProtoUnit">Eg_Bldg_TownCenter</Target>
+      </Effect>
+      <Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+        <Target type="ProtoUnit">AbstractTownCenter</Target>
+      </Effect>
+      <Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+        <Target type="ProtoUnit">AbstractTownCenter</Target>
+      </Effect>
+      <Effect type="TechStatus" status="active">EgyptRMAge3</Effect>
+    </Effects>
+  </Tech>
+  <Tech name="PVP_EgyptCapAge4" type="Normal">
+    <DBID>3793</DBID>
+    <Status>UNOBTAINABLE</Status>
+    <Icon>UserInterface\Icons\Techs\AgeUpL2_ua</Icon>
+    <RolloverTextID>51402</RolloverTextID>
+    <ContentPack>2</ContentPack>
+    <Flag>AgeUpgrade</Flag>
+    <Flag>IsAward</Flag>
+    <Prereqs>
+      <TechStatus status="Active">EgyptCapAge3</TechStatus>
+      <TypeCount unit="Eg_Bldg_Temple3" count="1.0000" state="aliveState" operator="gte"></TypeCount>
+    </Prereqs>
+    <Effects>
+      <Effect type="SetAge">Age3</Effect>
+      <Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+        <Target type="ProtoUnit">AbstractTownCenter</Target>
+      </Effect>
+      <Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+        <Target type="ProtoUnit">AbstractTownCenter</Target>
+      </Effect>
+      <Effect type="TechStatus" status="active">EgyptRMAge4</Effect>
+      <Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
+        <Target type="ProtoUnit">Eg_Bldg_TownCenter</Target>
+      </Effect>
+    </Effects>
+  </Tech>
+  
 </TechTree>
