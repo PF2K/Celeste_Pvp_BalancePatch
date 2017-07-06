@@ -31094,7 +31094,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Icon>UserInterface\Icons\Techs\AgeUpL2_ua</Icon>
 		<RolloverTextID>110022</RolloverTextID>
-		<ContentPack>2</ContentPack>
+		<ContentPack>6</ContentPack>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>IsAward</Flag>
 		<Effects>
