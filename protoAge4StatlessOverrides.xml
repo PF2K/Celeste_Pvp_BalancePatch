@@ -477,31 +477,43 @@
 		<MaxRunVelocity>13.50000</MaxRunVelocity>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Gr_Sie_Ballista">
-	<ProtoAction>
-		<Name>RangedAttack</Name>
-		<DamageArea>2.000000</DamageArea>
-	</ProtoAction>
-</ProtoUnitOverride>
-<ProtoUnitOverride name="Eg_Sie_Catapult">
-<ProtoAction>
-	<Name>RangedAttack</Name>
-	<DamageArea>2.000000</DamageArea>
-</ProtoAction>
-</ProtoUnitOverride>
-<ProtoUnitOverride name="Pe_Sie_Palintonon">
-	<Damage>58.000000</Damage>
-	<DamageBonus type ='Building'>4.000000</DamageBonus>
-</ProtoUnitOverride>
-<ProtoUnitOverride name="Gr_Sie_Palintonon">
-	<Damage>58.000000</Damage>
-	<DamageBonus type ='Building'>4.000000</DamageBonus>
-</ProtoUnitOverride>
-<ProtoUnitOverride name="Eg_Sie_Trebuchet">
-	<Damage>58.000000</Damage>
-	<DamageBonus type ='Building'>4.000000</DamageBonus>
-</ProtoUnitOverride>
-<ProtoUnitOverride name="Ba_Sie_Palintonon">
-	<Damage>58.000000</Damage>
-	<DamageBonus type ='Building'>4.000000</DamageBonus>
-</ProtoUnitOverride>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<DamageArea>2.000000</DamageArea>
+		</ProtoAction>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Eg_Sie_Catapult">
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<DamageArea>2.000000</DamageArea>
+		</ProtoAction>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Pe_Sie_Palintonon">
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>58.000000</Damage>
+			<DamageBonus type ='Building'>4.000000</DamageBonus>
+		</ProtoAction>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Gr_Sie_Palintonon">
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>58.000000</Damage>
+			<DamageBonus type ='Building'>4.000000</DamageBonus>
+		</ProtoAction>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Eg_Sie_Trebuchet">
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>58.000000</Damage>
+			<DamageBonus type ='Building'>4.000000</DamageBonus>
+		</ProtoAction>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Ba_Sie_Palintonon">
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>58.000000</Damage>
+			<DamageBonus type ='Building'>4.000000</DamageBonus>
+		</ProtoAction>
+	</ProtoUnitOverride>
 </ProtoUnitOverrides>
