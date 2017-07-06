@@ -26361,7 +26361,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>IsAward</Flag>
 		<Prereqs>
-			<TechStatus status="Active">GreekCapAge2</TechStatus>
+			<TechStatus status="Active">PVP_GreekCapAge2</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type="SetAge">Age2</Effect>
@@ -26420,7 +26420,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>IsAward</Flag>
 		<Prereqs>
-			<TechStatus status="Active">PersiaCapAge2</TechStatus>
+			<TechStatus status="Active">PVP_PersiaCapAge2</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type="SetAge">Age2</Effect>
@@ -31144,7 +31144,7 @@
 		<Flag>IsAward</Flag>
 		<Flag>AgeUpgrade</Flag>
 		<Prereqs>
-			<TechStatus status="Active">EgyptCapAge2</TechStatus>
+			<TechStatus status="Active">PVP_EgyptCapAge2</TechStatus>
 			<TypeCount unit="Eg_Bldg_Temple2" count="1.0000" state="aliveState" operator="gte"/>
 		</Prereqs>
 		<Effects>
@@ -31170,7 +31170,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>IsAward</Flag>
 		<Prereqs>
-			<TechStatus status="Active">EgyptCapAge3</TechStatus>
+			<TechStatus status="Active">PVP_EgyptCapAge3</TechStatus>
 			<TypeCount unit="Eg_Bldg_Temple3" count="1.0000" state="aliveState" operator="gte"/>
 		</Prereqs>
 		<Effects>
@@ -31185,6 +31185,60 @@
 			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Eg_Bldg_TownCenter</Target>
 			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PVP_Eg_Ct_BldgTemple1" type="Normal">
+		<DBID>5731</DBID>
+		<DisplayNameID>55336</DisplayNameID>
+		<Cost resourcetype="Food">200.0000</Cost>
+		<Cost resourcetype="Gold">300.0000</Cost>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>UserInterface\Icons\Techs\GreekTrireme64_ua</Icon>
+		<ContentPack>2</ContentPack>
+		<Flag>IsAward</Flag>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Eg_Bldg_Temple1</Target>
+			</Effect>
+			<Effect type="TechStatus" status="obtainable">PVP_EgyptCapAge2</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PVP_Eg_Ct_BldgTemple2" type="Normal">
+		<DBID>5732</DBID>
+		<DisplayNameID>55337</DisplayNameID>
+		<Cost resourcetype="Food">200.0000</Cost>
+		<Cost resourcetype="Gold">300.0000</Cost>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>UserInterface\Icons\Techs\GreekTrireme64_ua</Icon>
+		<ContentPack>2</ContentPack>
+		<Flag>Shadow</Flag>
+		<Flag>IsAward</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Eg_Bldg_Temple2</Target>
+			</Effect>
+			<Effect type="TechStatus" status="obtainable">PVP_EgyptCapAge3</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PVP_Eg_Ct_BldgTemple3" type="Normal">
+		<DBID>5733</DBID>
+		<DisplayNameID>55338</DisplayNameID>
+		<Cost resourcetype="Food">200.0000</Cost>
+		<Cost resourcetype="Gold">300.0000</Cost>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>UserInterface\Icons\Techs\GreekTrireme64_ua</Icon>
+		<ContentPack>2</ContentPack>
+		<Flag>IsAward</Flag>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Eg_Bldg_Temple3</Target>
+			</Effect>
+			<Effect type="TechStatus" status="obtainable">PVP_EgyptCapAge4</Effect>
 		</Effects>
 	</Tech>
 </TechTree>
