@@ -19110,7 +19110,7 @@
 		<ResearchPoints>75.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>UserInterface\Icons\Techs\AgeUpL4_ua</Icon>
-		<RolloverTextID>63881</RolloverTextID>
+		<RolloverTextID>110026</RolloverTextID>
 		<ContentPack>1</ContentPack>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>IsAward</Flag>
@@ -19140,7 +19140,7 @@
 		<ResearchPoints>75.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>UserInterface\Icons\Techs\AgeUpL4_ua</Icon>
-		<RolloverTextID>63883</RolloverTextID>
+		<RolloverTextID>110026</RolloverTextID>
 		<ContentPack>6</ContentPack>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>IsAward</Flag>
@@ -19149,10 +19149,10 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="SetAge">Age3</Effect>
-			<Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">Pe_Bldg_TownCenter</Target>
 			</Effect>
-			<Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">Pe_Bldg_TownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
@@ -31106,7 +31106,7 @@
 				<Target type="ProtoUnit">AbstractTownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
-				<Target type="ProtoUnit">Gr_Bldg_TownCenter</Target>
+				<Target type="ProtoUnit">Pe_Bldg_TownCenter</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -31241,4 +31241,79 @@
 			<Effect type="TechStatus" status="obtainable">PVP_EgyptCapAge4</Effect>
 		</Effects>
 	</Tech>
+	
+	<!-- EGGY AGE UP FIX -->
+	
+	<Tech name="PVP_EgyptTechRMAge2_Shadow" type="Normal">
+		<DBID>5734</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>terrain\trees\berrybush_icon_64</Icon>
+		<ContentPack>2</ContentPack>
+		<Prereqs>
+			<TechStatus status="Active">PVP_Eg_Ct_BldgTemple1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="TechStatus" status="obtainable">PVP_EgyptRMAge2</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PVP_EgyptTechRMAge3_Shadow" type="Normal">
+		<DBID>5735</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>terrain\trees\berrybush_icon_64</Icon>
+		<ContentPack>2</ContentPack>
+		<Prereqs>
+			<TechStatus status="Active">PVP_Eg_Ct_BldgTemple2</TechStatus>
+			<TechStatus status="Active">PVP_EgyptCapAge2</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="TechStatus" status="obtainable">PVP_EgyptRMAge3</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PVP_EgyptTechRMAge4_Shadow" type="Normal">
+		<DBID>5736</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>terrain\trees\berrybush_icon_64</Icon>
+		<ContentPack>2</ContentPack>
+		<Prereqs>
+			<TechStatus status="Active">PVP_EgyptCapAge3</TechStatus>
+			<TechStatus status="Active">PVP_Eg_Ct_BldgTemple3</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="TechStatus" status="obtainable">PVP_EgyptRMAge4</Effect>
+		</Effects>
+	</Tech>
+		<Tech name="PVP_EgyptRMAge2" type="Normal">
+		<DBID>5737</DBID>
+		<DisplayNameID>56282</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>UserInterface\Icons\Techs\AgeUpL2_ua</Icon>
+		<RolloverTextID>110023</RolloverTextID>
+		<ContentPack>2</ContentPack>
+		<Flag>IsAward</Flag>
+		<Prereqs/>
+	</Tech>
+	<Tech name="PVP_EgyptRMAge3" type="Normal">
+		<DBID>5738</DBID>
+		<DisplayNameID>56421</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>UserInterface\Icons\Techs\AgeUpL3_ua</Icon>
+		<RolloverTextID>110024</RolloverTextID>
+		<ContentPack>2</ContentPack>
+		<Flag>IsAward</Flag>
+		<Prereqs/>
+	</Tech>
+	<Tech name="PVP_EgyptRMAge4" type="Normal">
+		<DBID>5739</DBID>
+		<DisplayNameID>56423</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>UserInterface\Icons\Techs\AgeUpL4_ua</Icon>
+		<RolloverTextID>110025</RolloverTextID>
+		<ContentPack>2</ContentPack>
+		<Flag>IsAward</Flag>
+		<Prereqs/>
+	</Tech>
+	
 </TechTree>

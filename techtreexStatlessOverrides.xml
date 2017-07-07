@@ -60,4 +60,10 @@
   <Tech name="EgyptCapAge4">PVP_EgyptCapAge4</Tech>
   <Tech name="Eg_Ct_BldgTemple3">PVP_Eg_Ct_BldgTemple3</Tech>
   <Tech name="PersiaCapAge2">PVP_PersiaCapAge2</Tech>
+  <Tech name="EgyptTechRMAge2_Shadow">PVP_EgyptTechRMAge2_Shadow</Tech>
+  <Tech name="EgyptTechRMAge2_Shadow">PVP_EgyptTechRMAge3_Shadow</Tech>
+  <Tech name="EgyptTechRMAge2_Shadow">PVP_EgyptTechRMAge4_Shadow</Tech>
+  <Tech name="EgyptRMAge2">PVP_EgyptRMAge2</Tech>
+  <Tech name="EgyptRMAge3">PVP_EgyptRMAge3</Tech>
+  <Tech name="EgyptRMAge4">PVP_EgyptRMAge4</Tech>
 </TechTreeOverrides>

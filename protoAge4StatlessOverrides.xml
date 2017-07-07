@@ -180,12 +180,14 @@
 		<ProtoAction>
 			<Name>RangedAttack</Name>
 			<DamageBonus type="Building">2.500000</DamageBonus>
+			<DamageArea>2.000000</DamageArea>
 		</ProtoAction>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Eg_Sie_Catapult">
 		<ProtoAction>
 			<Name>RangedAttack</Name>
 			<DamageBonus type="Building">2.500000</DamageBonus>
+			<DamageArea>2.000000</DamageArea>
 		</ProtoAction>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Gr_Cav_Scout">
@@ -475,18 +477,6 @@
 	<ProtoUnitOverride name="Ba_Arc_WarChariot">
 		<MaxVelocity>9.0000</MaxVelocity>
 		<MaxRunVelocity>13.50000</MaxRunVelocity>
-	</ProtoUnitOverride>
-	<ProtoUnitOverride name="Gr_Sie_Ballista">
-		<ProtoAction>
-			<Name>RangedAttack</Name>
-			<DamageArea>2.000000</DamageArea>
-		</ProtoAction>
-	</ProtoUnitOverride>
-	<ProtoUnitOverride name="Eg_Sie_Catapult">
-		<ProtoAction>
-			<Name>RangedAttack</Name>
-			<DamageArea>2.000000</DamageArea>
-		</ProtoAction>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Pe_Sie_Palintonon">
 		<ProtoAction>
