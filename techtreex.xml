@@ -31129,7 +31129,7 @@
 			<Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">AbstractTownCenter</Target>
 			</Effect>
-			<Effect type="TechStatus" status="active">EgyptRMAge2</Effect>
+			<Effect type="TechStatus" status="active">PVP_EgyptRMAge2</Effect>
 			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Eg_Bldg_TownCenter</Target>
 			</Effect>
@@ -31158,7 +31158,7 @@
 			<Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">AbstractTownCenter</Target>
 			</Effect>
-			<Effect type="TechStatus" status="active">EgyptRMAge3</Effect>
+			<Effect type="TechStatus" status="active">PVP_EgyptRMAge3</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="PVP_EgyptCapAge4" type="Normal">
@@ -31181,7 +31181,7 @@
 			<Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">AbstractTownCenter</Target>
 			</Effect>
-			<Effect type="TechStatus" status="active">EgyptRMAge4</Effect>
+			<Effect type="TechStatus" status="active">PVP_EgyptRMAge4</Effect>
 			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Eg_Bldg_TownCenter</Target>
 			</Effect>
@@ -31241,9 +31241,6 @@
 			<Effect type="TechStatus" status="obtainable">PVP_EgyptCapAge4</Effect>
 		</Effects>
 	</Tech>
-	
-	<!-- EGGY AGE UP FIX -->
-	
 	<Tech name="PVP_EgyptTechRMAge2_Shadow" type="Normal">
 		<DBID>5734</DBID>
 		<ResearchPoints>0.0000</ResearchPoints>
@@ -31285,7 +31282,7 @@
 			<Effect type="TechStatus" status="obtainable">PVP_EgyptRMAge4</Effect>
 		</Effects>
 	</Tech>
-		<Tech name="PVP_EgyptRMAge2" type="Normal">
+	<Tech name="PVP_EgyptRMAge2" type="Normal">
 		<DBID>5737</DBID>
 		<DisplayNameID>56282</DisplayNameID>
 		<Status>UNOBTAINABLE</Status>
@@ -31315,5 +31312,50 @@
 		<Flag>IsAward</Flag>
 		<Prereqs/>
 	</Tech>
-	
+	<Tech name="PVP_EgyptTechAge1_Shadow" type="Normal">
+		<DBID>5740</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>terrain\trees\berrybush_icon_64</Icon>
+		<ContentPack>2</ContentPack>
+		<Prereqs>
+			<TechStatus status="Active">PVP_EgyptCapStartCiv</TechStatus>
+			<TypeCount unit="Eg_Bldg_Temple1" count="1.0000" state="aliveState" operator="gte"/>
+		</Prereqs>
+		<Effects>
+			<Effect type="TechStatus" status="active">PVP_EgyptCapAge2</Effect>
+			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Eg_Bldg_Temple1</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PVP_EgyptTechAge2_Shadow" type="Normal">
+		<DBID>5741</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>terrain\trees\berrybush_icon_64</Icon>
+		<ContentPack>2</ContentPack>
+		<Prereqs>
+			<TypeCount unit="Eg_Bldg_Temple2" count="1.0000" state="aliveState" operator="gte"/>
+			<TechStatus status="Active">PVP_EgyptTechAge1_Shadow</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="TechStatus" status="active">PVP_EgyptCapAge3</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PVP_EgyptTechAge3_Shadow" type="Normal">
+		<DBID>5742</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>terrain\trees\berrybush_icon_64</Icon>
+		<ContentPack>2</ContentPack>
+		<Prereqs>
+			<TypeCount unit="Eg_Bldg_Temple3" count="1.0000" state="aliveState" operator="gte"/>
+			<TechStatus status="Active">PVP_EgyptTechAge2_Shadow</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="TechStatus" status="active">PVP_EgyptCapAge4</Effect>
+		</Effects>
+	</Tech>
+
 </TechTree>

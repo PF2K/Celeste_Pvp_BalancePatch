@@ -179,15 +179,34 @@
 	<ProtoUnitOverride name="Gr_Sie_Ballista">
 		<ProtoAction>
 			<Name>RangedAttack</Name>
-			<DamageBonus type="Building">2.500000</DamageBonus>
+			<Damage>28.000000</Damage>
+			<ROF>0.000000</ROF>
+			<MinRange>13.000000</MinRange>
+			<MaxRange>37.000000</MaxRange>
 			<DamageArea>2.000000</DamageArea>
+			<DamageFlags>Gaia Enemy</DamageFlags>
+			<DamageType>Siege</DamageType>
+			<Projectile>Proj_Bolt</Projectile>
+			<MaxHeight>3.000000</MaxHeight>
+			<ImpactEffect>effects\impacts\siege1</ImpactEffect>
+			<DamageBonus type ='Building'>2.500000</DamageBonus>
 		</ProtoAction>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Eg_Sie_Catapult">
 		<ProtoAction>
 			<Name>RangedAttack</Name>
-			<DamageBonus type="Building">2.500000</DamageBonus>
+			<DamageBonus type ='Building'>2.500000</DamageBonus>
+		</ProtoAction>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>32.000000</Damage>
+			<ROF>0.000000</ROF>
+			<MinRange>13.000000</MinRange>
+			<MaxRange>37.000000</MaxRange>
 			<DamageArea>2.000000</DamageArea>
+			<DamageFlags>GaiaEnemy</DamageFlags>
+			<DamageType>Siege</DamageType>
+			<ImpactEffect>effects\impacts\siege2</ImpactEffect>
 		</ProtoAction>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Gr_Cav_Scout">
