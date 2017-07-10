@@ -26390,7 +26390,7 @@
 		<Flag>IsAward</Flag>
 		<Flag>AlwaysShowButton</Flag>
 		<Prereqs>
-			<TechStatus status="Active">CeltCapAge2</TechStatus>
+			<TechStatus status="Active">PVP_CeltCapAge2</TechStatus>
 			<TypeCount unit="Ce_Bldg_House" count="6.0000" state="aliveState" operator="gte"/>
 		</Prereqs>
 		<Effects>
@@ -26449,7 +26449,7 @@
 		<Flag>AgeUpgrade</Flag>
 		<Flag>IsAward</Flag>
 		<Prereqs>
-			<TechStatus status="Active">BabylonCapAge2</TechStatus>
+			<TechStatus status="Active">PVP_BabylonCapAge2</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type="SetAge">Age2</Effect>
@@ -26578,10 +26578,10 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="SetAge">Age3</Effect>
-			<Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">Ba_Bldg_TownCenter</Target>
 			</Effect>
-			<Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">Ba_Bldg_TownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
@@ -29522,22 +29522,22 @@
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>UserInterface\Icons\Techs\AgeUpL3_ua</Icon>
-		<RolloverTextID>67649</RolloverTextID>
+		<RolloverTextID>110018</RolloverTextID>
 		<ContentPack>24</ContentPack>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>IsAward</Flag>
 		<Prereqs>
-			<TechStatus status="Active">NorseCapAge2</TechStatus>
+			<TechStatus status="Active">PVP_NorseCapAge2</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type="SetAge">Age2</Effect>
 			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">No_Bldg_TownCenter</Target>
 			</Effect>
-			<Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">AbstractTownCenter</Target>
 			</Effect>
-			<Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">AbstractTownCenter</Target>
 			</Effect>
 		</Effects>
@@ -29572,7 +29572,7 @@
 		<ResearchPoints>75.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>UserInterface\Icons\Techs\AgeUpL4_ua</Icon>
-		<RolloverTextID>67653</RolloverTextID>
+		<RolloverTextID>110021</RolloverTextID>
 		<ContentPack>24</ContentPack>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>IsAward</Flag>
@@ -29581,10 +29581,10 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="SetAge">Age3</Effect>
-			<Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">AbstractTownCenter</Target>
 			</Effect>
-			<Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">AbstractTownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
@@ -31059,7 +31059,8 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<!-- Celeste Balance Changes New Techs (by PF2K)  -->
+	
+	<!-- AGE UP - GR - Celeste Balance Changes New Techs (by PF2K)  -->
 	<Tech name="PVP_GreekCapAge2" type="Normal">
 		<DBID>5726</DBID>
 		<DisplayNameID>49767</DisplayNameID>
@@ -31085,6 +31086,8 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	
+	<!-- AGE UP - PE - Celeste Balance Changes New Techs (by PF2K)  -->
 	<Tech name="PVP_PersiaCapAge2" type="Normal">
 		<DBID>5727</DBID>
 		<DisplayNameID>49767</DisplayNameID>
@@ -31110,6 +31113,8 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	
+	<!-- AGE UP - EG - Celeste Balance Changes New Techs (by PF2K)  -->
 	<Tech name="PVP_EgyptCapAge2" type="Normal">
 		<DBID>5728</DBID>
 		<Status>UNOBTAINABLE</Status>
@@ -31358,4 +31363,129 @@
 		</Effects>
 	</Tech>
 
+	<!-- AGE UP - NO - Celeste Balance Changes New Techs (by PF2K)  -->
+	<Tech name="PVP_NorseCapAge2" type="Normal">
+		<DBID>5748</DBID>
+		<DisplayNameID>67453</DisplayNameID>
+		<Cost resourcetype="Food">200.0000</Cost>
+		<Cost resourcetype="Wood">200.0000</Cost>
+		<ResearchPoints>45.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>UserInterface\Icons\Techs\AgeUpL2_ua</Icon>
+		<RolloverTextID>110022</RolloverTextID>
+		<ContentPack>24</ContentPack>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>IsAward</Flag>
+		<Effects>
+			<Effect type="SetAge">Age1</Effect>
+			<Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">AbstractTownCenter</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">AbstractTownCenter</Target>
+			</Effect>
+			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">No_Bldg_TownCenter</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+
+	<!-- AGE UP - CE - Celeste Balance Changes New Techs (by PF2K)  -->
+	<Tech name="PVP_CeltCapAge2" type="Normal">
+		<DBID>5747</DBID>
+		<DisplayNameID>59086</DisplayNameID>
+		<Cost resourcetype="Food">300.0000</Cost>
+		<ResearchPoints>35.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>UserInterface\Icons\Techs\AgeUpL2_ua</Icon>
+		<RolloverTextID>110022</RolloverTextID>
+		<ContentPack>5</ContentPack>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>IsAward</Flag>
+		<Flag>AlwaysShowButton</Flag>
+		<Prereqs>
+			<TypeCount unit="Ce_Bldg_House" count="3.0000" state="aliveState" operator="gte"/>
+		</Prereqs>
+		<Effects>
+			<Effect type="SetAge">Age1</Effect>
+			<Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">AbstractTownCenter</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">AbstractTownCenter</Target>
+			</Effect>
+			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Ce_Bldg_TownCenter</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	
+
+	<Tech name="PVP_BabylonCapAge2" type="Normal">
+		<DBID>5743</DBID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>UserInterface\Icons\Techs\AgeUpL2_ua</Icon>
+		<RolloverTextID>110027</RolloverTextID>
+		<ContentPack>22</ContentPack>
+		<Flag>AgeUpgrade</Flag>
+		<Flag>IsAward</Flag>
+		<Prereqs>
+			<TypeCount unit="Ba_Bldg_Ziggurat" count="1.0000" state="aliveState" operator="gte"/>
+		</Prereqs>
+		<Effects>
+			<Effect type="SetAge">Age1</Effect>
+			<Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">AbstractTownCenter</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">AbstractTownCenter</Target>
+			</Effect>
+			<Effect type="TechStatus" status="active">PVP_BabylonRMAge2</Effect>
+			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Ba_Bldg_TownCenter</Target>
+			</Effect>
+			<Effect type="TechStatus" status="obtainable">BabylonRMAge3</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="PVP_BabylonRMAge2" type="Normal">
+		<DBID>5744</DBID>
+		<DisplayNameID>66334</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>UserInterface\Icons\Techs\AgeUpL2_ua</Icon>
+		<RolloverTextID>110027</RolloverTextID>
+		<ContentPack>22</ContentPack>
+		<Flag>IsAward</Flag>
+		<Prereqs/>
+	</Tech>	
+	<Tech name="PVP_BabylonTechRMAge2_Shadow" type="Normal">
+		<DBID>5745</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>terrain\trees\berrybush_icon_64</Icon>
+		<ContentPack>22</ContentPack>
+		<Prereqs>
+			<TechStatus status="Active">Ba_Ct_BldgZiggurat1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="TechStatus" status="obtainable">PVP_BabylonRMAge2</Effect>
+		</Effects>
+	</Tech>
+    <Tech name="PVP_BabylonTechAge1_Shadow" type="Normal">
+		<DBID>5746</DBID>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>terrain\trees\berrybush_icon_64</Icon>
+		<ContentPack>22</ContentPack>
+		<Prereqs>
+			<TechStatus status="Active">BabylonCapStartCiv</TechStatus>
+			<TypeCount unit="Ba_Bldg_Ziggurat" count="1.0000" state="aliveState" operator="gte"/>
+		</Prereqs>
+		<Effects>
+			<Effect type="TechStatus" status="active">PVP_BabylonCapAge2</Effect>
+			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Ba_Bldg_Ziggurat</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+		
 </TechTree>
