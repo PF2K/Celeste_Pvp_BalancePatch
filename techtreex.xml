@@ -31464,7 +31464,7 @@
 		<Icon>terrain\trees\berrybush_icon_64</Icon>
 		<ContentPack>22</ContentPack>
 		<Prereqs>
-			<TechStatus status="Active">Ba_Ct_BldgZiggurat1</TechStatus>
+			<TechStatus status="Active">PVP_Ba_Ct_BldgZiggurat1</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type="TechStatus" status="obtainable">PVP_BabylonRMAge2</Effect>
