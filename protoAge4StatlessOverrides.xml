@@ -165,6 +165,7 @@
 		<Armor type="Cavalry" value="0.0000"/>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Ba_Sie_SiegeTower">
+	<MaxHitpoints>600.0000</MaxHitpoints>
 		<Armor type="Cavalry" value="0.0000"/>
 		<ProtoAction>
 			<Name>MeleeAttack</Name>
@@ -292,6 +293,7 @@
 		<Tactics>pvp_spearman.tactics</Tactics>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Ba_Inf_Spearman">
+	<TrainPoints>12.0000</TrainPoints>
 		<ProtoAction>
 			<Name>MeleeAttack</Name>
 			<Damage>11.000000</Damage>
@@ -494,6 +496,7 @@
 		</ProtoAction>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Ba_Arc_WarChariot">
+	<MaxHitpoints>700.0000</MaxHitpoints>
 		<MaxVelocity>9.0000</MaxVelocity>
 		<MaxRunVelocity>13.50000</MaxRunVelocity>
 	</ProtoUnitOverride>
@@ -512,6 +515,7 @@
 		</ProtoAction>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Eg_Sie_Trebuchet">
+	<TrainPoints>45.0000</TrainPoints>
 		<ProtoAction>
 			<Name>RangedAttack</Name>
 			<Damage>58.000000</Damage>

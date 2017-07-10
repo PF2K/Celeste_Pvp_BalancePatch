@@ -19169,7 +19169,7 @@
 		<ResearchPoints>65.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>UserInterface\Icons\Techs\AgeUpL4_ua</Icon>
-		<RolloverTextID>63885</RolloverTextID>
+		<RolloverTextID>110026</RolloverTextID>
 		<ContentPack>5</ContentPack>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>IsAward</Flag>
@@ -19180,10 +19180,10 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="SetAge">Age3</Effect>
-			<Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">Ce_Bldg_TownCenter</Target>
 			</Effect>
-			<Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">Ce_Bldg_TownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
@@ -31487,5 +31487,158 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	
+	<Tech name="PVP_Ba_Ct_BldgZiggurat1" type="Normal">
+		<DBID>5749</DBID>
+		<DisplayNameID>66122</DisplayNameID>
+		<Cost resourcetype="Food">200.0000</Cost>
+		<Cost resourcetype="Gold">300.0000</Cost>
+		<ResearchPoints>0.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>UserInterface\Icons\Techs\GreekTrireme64_ua</Icon>
+		<ContentPack>22</ContentPack>
+		<Flag>IsAward</Flag>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Ba_Bldg_Ziggurat</Target>
+			</Effect>
+			<Effect type="TechStatus" status="obtainable">PVP_BabylonCapAge2</Effect>
+		</Effects>
+	</Tech>
 		
+			<!-- Sapper Champion - Celeste Balance Changes New Techs (by PF2K)  -->
+			
+	<Tech name="PVP_BabylonTechSapper_Upgrade1" type="Normal">
+		<DBID>5750</DBID>
+		<DisplayNameID>110028</DisplayNameID>
+		<Cost resourcetype="Gold">800.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>\UserInterface\Icons\Techs\C06TechSapperChampion_ua</Icon>
+		<RolloverTextID>66215</RolloverTextID>
+		<ContentPack>22</ContentPack>
+		<Flag>IsAward</Flag>
+		<Prereqs>
+			<SpecificAge>Age3</SpecificAge>
+		</Prereqs>
+		<Effects>
+			<Effect type="SetName" proto="Ba_Inf_Sapper" culture="none" newName="66228"/>
+			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="Cost" resource="Food" relativity="Percent">
+				<Target type="ProtoUnit">Ba_Inf_Sapper</Target>
+			</Effect>
+			<Effect type="Data" amount="1.5000" scaling="0.0000" subtype="DamageBonus" unittype="Building" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">Ba_Inf_Sapper</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1500" scaling="0.0000" subtype="MaximumVelocity" relativity="Percent">
+				<Target type="ProtoUnit">Ba_Inf_Sapper</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	
+				<!-- Lancer Champion - Celeste Balance Changes New Techs (by PF2K)  -->
+	<Tech name="PVP_BabylonTechLancer_Upgrade1" type="Normal">
+		<DBID>5751</DBID>
+		<DisplayNameID>66167</DisplayNameID>
+		<Cost resourcetype="Gold">450.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>\UserInterface\Icons\Techs\C06TechLancerChampion_ua</Icon>
+		<RolloverTextID>110029</RolloverTextID>
+		<ContentPack>22</ContentPack>
+		<Flag>IsAward</Flag>
+		<Prereqs>
+			<SpecificAge>Age2</SpecificAge>
+		</Prereqs>
+		<Effects>
+			<Effect type="SetName" proto="Ba_Cav_Lancer" culture="none" newName="66226"/>
+			<Effect type="Data" action="Charge" amount="1.0000" scaling="0.0000" subtype="ActionEnable" relativity="Assign">
+				<Target type="ProtoUnit">Ba_Cav_Lancer</Target>
+			</Effect>
+			<Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">Ba_Cav_Lancer</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	
+				<!-- Burning Pitch Removal (made the content pack 22 from 24 to mess it up) - Celeste Balance Changes New Techs (by PF2K)  -->
+				
+	<Tech name="PVP_NorseTechBurningPitch1" type="Normal">
+		<DBID>5752</DBID>
+		<DisplayNameID>67787</DisplayNameID>
+		<Cost resourcetype="Wood">300.0000</Cost>
+		<Cost resourcetype="Gold">300.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>\UserInterface\Icons\Techs\C07TechBurningPitch_ua</Icon>
+		<RolloverTextID>67786</RolloverTextID>
+		<ContentPack>22</ContentPack>
+		<Flag>IsAward</Flag>
+		<Prereqs>
+			<SpecificAge>Age2</SpecificAge>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" action="BurningAttack" amount="0.0000" scaling="0.0000" subtype="ActionEnable" relativity="Absolute">
+				<Target type="ProtoUnit">No_Bldg_Fortress</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	
+			<!-- Babylon Siege Tower Champion - Celeste Balance Changes New Techs (by PF2K)  -->
+			
+	<Tech name="PVP_BabylonTechSiegeTower_Upgrade1" type="Normal">
+		<DBID>5753</DBID>
+		<DisplayNameID>66176</DisplayNameID>
+		<Cost resourcetype="Gold">1000.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>\UserInterface\Icons\Techs\C06TechSiegeTowerChampion_ua</Icon>
+		<RolloverTextID>110030</RolloverTextID>
+		<ContentPack>22</ContentPack>
+		<Flag>IsAward</Flag>
+		<Prereqs>
+			<SpecificAge>Age3</SpecificAge>
+		</Prereqs>
+		<Effects>
+			<Effect type="SetName" proto="Ba_Sie_SiegeTower" culture="none" newName="66230"/>
+			<Effect type="Data" amount="1000.0000" scaling="0.0000" subtype="TargetSpeedBoostResist" relativity="Percent">
+				<Target type="ProtoUnit">Ba_Sie_SiegeTower</Target>
+			</Effect>
+			<Effect type="Data" action="RangedAttack" amount="1.0000" scaling="0.0000" subtype="DamageArea" relativity="Absolute">
+				<Target type="ProtoUnit">Ba_Sie_SiegeTower</Target>
+			</Effect>
+			<Effect type="Data" amount="1.5000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">Ba_Sie_SiegeTower</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	
+			<!-- Champion Champion - Celeste Balance Changes New Techs (by PF2K)  -->
+				
+	<Tech name="PVP_CeltTechChampion_Upgrade1" type="Normal">
+		<DBID>5257</DBID>
+		<DisplayNameID>64654</DisplayNameID>
+		<Cost resourcetype="Gold">800.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>\UserInterface\Icons\Techs\C03TechChampionChampion_ua</Icon>
+		<RolloverTextID>110031</RolloverTextID>
+		<ContentPack>5</ContentPack>
+		<Flag>IsAward</Flag>
+		<Prereqs>
+			<SpecificAge>Age3</SpecificAge>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">Ce_Inf_Champion</Target>
+			</Effect>
+			<Effect type="Data" amount="1.2500" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">Ce_Inf_Champion</Target>
+			</Effect>
+			<Effect type="SetName" proto="Ce_Inf_Champion" culture="none" newName="64655"/>
+			<Effect type="Data" amount="1.5000" scaling="0.0000" subtype="CostAll" relativity="Percent">
+				<Target type="ProtoUnit">Ce_Inf_Champion</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 </TechTree>

@@ -86,4 +86,12 @@
 	
 	<!-- AGE UP - BA - Celeste Balance Changes New Techs (by PF2K)  -->
 	<Tech name="Ba_Ct_BldgZiggurat1">PVP_Ba_Ct_BldgZiggurat1</Tech>
+	
+	<!-- Celts Launch Day New Techs (by PF2K) -->
+	<Tech name="BabylonTechSapper_Upgrade1">PVP_BabylonTechSapper_Upgrade1</Tech>
+	<Tech name="BabylonTechLancer_Upgrade1">PVP_BabylonTechLancer_Upgrade1</Tech>
+	<Tech name="NorseTechBurningPitch1">PVP_NorseTechBurningPitch1</Tech>
+	<Tech name="BabylonTechLancer_Upgrade1">PVP_BabylonTechLancer_Upgrade1</Tech>
+	<Tech name="BabylonTechSiegeTower_Upgrade1">PVP_BabylonTechSiegeTower_Upgrade1</Tech>
+	<Tech name="CeltTechChampion_Upgrade1">PVP_CeltTechChampion_Upgrade1</Tech>
 </TechTreeOverrides>
