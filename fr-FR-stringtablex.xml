@@ -16594,8 +16594,8 @@
 		<string _locid="100017">Celeste Island</string>
 		<string _locid="100018">Under Construction</string>
 		
-			<!-- Celeste Balance Changes New Techs (by PF2K)  -->
-	<string _locid="110018">Advances civilization to Silver Age and improves &lt;color=0.32 0.65 1.0&gt;Town Center&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;Advance to Silver Age&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+20% Health&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+10% Damage&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+1 Build Limit&lt;/color&gt;</string>
+		<!-- Celeste Balance Changes New Techs (by PF2K)  -->
+		<string _locid="110018">Advances civilization to Silver Age and improves &lt;color=0.32 0.65 1.0&gt;Town Center&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;Advance to Silver Age&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+20% Health&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+10% Damage&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+1 Build Limit&lt;/color&gt;</string>
 		<string _locid="110019">Advances civilization to Silver Age and improves &lt;color=0.32 0.65 1.0&gt;Town Center&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;Advance to Silver Age&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+20% Health&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+10% Damage&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+1&lt;/color&gt; &lt;color=0.32 0.65 1.0&gt;Town Center&lt;/color&gt; &lt;color=0.0 1.0 0.0&gt;Build Limit&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+4&lt;/color&gt; &lt;color=0.32 0.65 1.0&gt;Garden&lt;/color&gt; &lt;color=0.0 1.0 0.0&gt;Build Limit&lt;/color&gt;</string>
 		<string _locid="110020">Advances civilization to Golden Age and improves &lt;color=0.32 0.65 1.0&gt;Town Center&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;Advance to Golden Age&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+20% Health&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+10% Damage&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+1&lt;/color&gt; &lt;color=0.32 0.65 1.0&gt;Town Center&lt;/color&gt; &lt;color=0.0 1.0 0.0&gt;Build Limit&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+4&lt;/color&gt; &lt;color=0.32 0.65 1.0&gt;Garden&lt;/color&gt; &lt;color=0.0 1.0 0.0&gt;Build Limit&lt;/color&gt;</string>
 		<string _locid="110021">Advances civilization to Golden Age and improves &lt;color=0.32 0.65 1.0&gt;Town Center&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;Advance to Golden Age&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+20% Health&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+10% Damage&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+1 Build Limit&lt;/color&gt;</string>
@@ -16605,5 +16605,13 @@
 		<string _locid="110025">Build a Temple of Ptah to advance civilization to Golden Age and improve &lt;color=0.32 0.65 1.0&gt;Town Center&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;Advance to Golden Age&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+20% Health&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+10% Damage&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+1 Build Limit&lt;/color&gt;</string>
 		<string _locid="110026">Advances civilization to Golden Age and improves &lt;color=0.32 0.65 1.0&gt;Town Center&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;Advance to Golden Age&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+20% Health&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+10% Damage&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+1 Build Limit&lt;/color&gt;</string>
 	
+		<!-- Celeste Chat Channel -->
+		<string _locid="160121" >PVP</string>
+		<string _locid="160126" >BR</string>
+		<string _locid="160122" >DE</string>
+		<string _locid="160123" >ES</string>
+		<string _locid="160124" >FR</string>
+		<string _locid="160125" >IT</string>
+		
 	</language>
 </stringtable>
