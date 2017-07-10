@@ -30895,7 +30895,7 @@
 		<Flag>IsAward</Flag>
 		<Prereqs>
 			<SpecificAge>Age3</SpecificAge>
-			<TechStatus status="Active">PVP_TechArmorWall2</TechStatus>
+			<TechStatus status="Active">TechArmorWall2</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type="Data" amount="2.0000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
@@ -30985,7 +30985,7 @@
 		<Flag>IsAward</Flag>
 		<Prereqs>
 			<SpecificAge>Age3</SpecificAge>
-			<TechStatus status="Active">PVP_BabylonTechArmorWall2</TechStatus>
+			<TechStatus status="Active">BabylonTechArmorWall2</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type="Data" amount="2.0000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
@@ -31641,4 +31641,7 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	
+	<!-- Note in case I forget: I removed age 4 walls by changing the requirement of the age 4 wall to be the pve tech of it -->
+	
 </TechTree>
