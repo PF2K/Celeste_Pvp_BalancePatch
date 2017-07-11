@@ -31561,7 +31561,7 @@
 		</Effects>
 	</Tech>
 	
-				<!-- Burning Pitch Removal (made the content pack 22 from 24 to mess it up) - Celeste Balance Changes New Techs (by PF2K)  -->
+				<!-- Burning Pitch Removal (made it require the non pvp age3 tech to mess it up) - Celeste Balance Changes New Techs (by PF2K)  -->
 				
 	<Tech name="PVP_NorseTechBurningPitch1" type="Normal">
 		<DBID>5752</DBID>
