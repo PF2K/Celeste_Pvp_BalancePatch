@@ -31378,10 +31378,10 @@
 		<Flag>IsAward</Flag>
 		<Effects>
 			<Effect type="SetAge">Age1</Effect>
-			<Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">AbstractTownCenter</Target>
 			</Effect>
-			<Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">AbstractTownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
@@ -31408,10 +31408,10 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="SetAge">Age1</Effect>
-			<Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">AbstractTownCenter</Target>
 			</Effect>
-			<Effect type="Data" amount="1.1000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">AbstractTownCenter</Target>
 			</Effect>
 			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
@@ -31511,12 +31511,12 @@
 			
 	<Tech name="PVP_BabylonTechSapper_Upgrade1" type="Normal">
 		<DBID>5750</DBID>
-		<DisplayNameID>110028</DisplayNameID>
+		<DisplayNameID>66216</DisplayNameID>
 		<Cost resourcetype="Gold">800.0000</Cost>
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>\UserInterface\Icons\Techs\C06TechSapperChampion_ua</Icon>
-		<RolloverTextID>66215</RolloverTextID>
+		<RolloverTextID>110028</RolloverTextID>
 		<ContentPack>22</ContentPack>
 		<Flag>IsAward</Flag>
 		<Prereqs>
@@ -31555,13 +31555,13 @@
 			<Effect type="Data" action="Charge" amount="1.0000" scaling="0.0000" subtype="ActionEnable" relativity="Assign">
 				<Target type="ProtoUnit">Ba_Cav_Lancer</Target>
 			</Effect>
-			<Effect type="Data" amount="1.2000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">Ba_Cav_Lancer</Target>
 			</Effect>
 		</Effects>
 	</Tech>
 	
-				<!-- Burning Pitch Removal (made the content pack 22 from 24 to mess it up) - Celeste Balance Changes New Techs (by PF2K)  -->
+				<!-- Burning Pitch Removal (made it require the non pvp age3 tech to mess it up) - Celeste Balance Changes New Techs (by PF2K)  -->
 				
 	<Tech name="PVP_NorseTechBurningPitch1" type="Normal">
 		<DBID>5752</DBID>
@@ -31575,6 +31575,7 @@
 		<ContentPack>22</ContentPack>
 		<Flag>IsAward</Flag>
 		<Prereqs>
+			<TechStatus status="Active">NorseCapAge3</TechStatus>
 			<SpecificAge>Age2</SpecificAge>
 		</Prereqs>
 		<Effects>
