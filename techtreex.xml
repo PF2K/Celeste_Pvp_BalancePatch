@@ -27254,7 +27254,7 @@
 	<Tech name="PVP_CeltTechChampion_Upgrade1" type="Normal">
 		<DBID>5522</DBID>
 		<DisplayNameID>66953</DisplayNameID> EDIT ORG 
-		<Cost resourcetype="Gold">1000.0000</Cost>
+		<Cost resourcetype="Gold">800.0000</Cost>  <!--EDIT ORG 1000-->
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>\UserInterface\Icons\Techs\C03TechChampionChampion_ua</Icon>
@@ -31143,7 +31143,7 @@
 	</Tech>
 
 	<!-- UNIT - NO -->
-	<Tech name="PVP_NorseTechBurningPitch1" type="Normal">
+	<Tech name="PVP_NorseTechBurningPitch1" type="Normal"> <!-- made the tech unavailable by makeing the prerequisite for the tech NorseCapAge3 instead of PVP_NorseCapAge3 -->
 		<DBID>5729</DBID>
 		<DisplayNameID>67787</DisplayNameID>
 		<Cost resourcetype="Wood">300.0000</Cost>
