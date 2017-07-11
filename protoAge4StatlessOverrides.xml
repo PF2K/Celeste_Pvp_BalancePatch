@@ -471,7 +471,12 @@
 		</ProtoAction>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Ba_Arc_WarChariot">
-	<MaxHitpoints>700.0000</MaxHitpoints> <!--EDIT ADD-->
+	<MaxHitpoints>700.0000</MaxHitpoints> <!--EDIT ADD HP OVERRIDE AND MULTIPLIER OVERRIDE-->
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>20.000000</Damage>
+			<DamageBonus type="AbstractArcher">3.00000</DamageBonus>
+		</ProtoAction>
 		<MaxVelocity>9.0000</MaxVelocity>
 		<MaxRunVelocity>13.50000</MaxRunVelocity>
 	</ProtoUnitOverride>
@@ -512,5 +517,49 @@
 			<DamageBonus type ='Building'>4.000000</DamageBonus>
 		</ProtoAction>
 	</ProtoUnitOverride>
+	
+	<ProtoUnitOverride name="Gr_Bldg_TownCenter"> <!-- ORG 5K HP and 20 DPS -->
+		<MaxHitpoints>4500.0000</MaxHitpoints>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>18.000000</Damage>
+		</ProtoAction>
+			</ProtoUnitOverride>
+	<ProtoUnitOverride name="Eg_Bldg_TownCenter"> <!-- ORG 5K HP and 20 DPS -->
+		<MaxHitpoints>4500.0000</MaxHitpoints>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>18.000000</Damage>
+		</ProtoAction>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Pe_Bldg_TownCenter"> <!-- ORG 5K HP and 20 DPS -->
+		<MaxHitpoints>4500.0000</MaxHitpoints>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>18.000000</Damage>
+		</ProtoAction>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Ce_Bldg_TownCenter"> <!-- ORG 5K HP and 20 DPS -->
+		<MaxHitpoints>4500.0000</MaxHitpoints>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>18.000000</Damage>
+		</ProtoAction>
+	</ProtoUnitOverride>		
+	<ProtoUnitOverride name="Ba_Bldg_TownCenter"> <!-- ORG 5K HP and 20 DPS -->
+		<MaxHitpoints>4500.0000</MaxHitpoints>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>18.000000</Damage>
+		</ProtoAction>
+	</ProtoUnitOverride>		
+	<ProtoUnitOverride name="No_Bldg_TownCenter"> <!-- ORG 5K HP and 20 DPS -->
+		<MaxHitpoints>4500.0000</MaxHitpoints>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>18.000000</Damage>
+		</ProtoAction>
+	</ProtoUnitOverride>		
+		
 	
 </ProtoUnitOverrides>
