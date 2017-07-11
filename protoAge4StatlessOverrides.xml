@@ -158,6 +158,7 @@
 		<Armor type="Cavalry" value="0.0000"/>
 		<ProtoAction>
 			<Name>MeleeAttack</Name>
+			<MaxHitpoints>600.0000</MaxHitpoints> <!--EDIT ADD-->
 			<DamageBonus type="Building">6.000000</DamageBonus>
 		</ProtoAction>
 	</ProtoUnitOverride>
@@ -169,12 +170,14 @@
 	<ProtoUnitOverride name="Gr_Sie_Ballista">
 		<ProtoAction>
 			<Name>RangedAttack</Name>
+			<Damage>21.000000</Damage> <!--EDIT ADD-->
 			<DamageBonus type="Building">2.500000</DamageBonus>
 		</ProtoAction>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Eg_Sie_Catapult">
 		<ProtoAction>
 			<Name>RangedAttack</Name>
+			<Damage>24.000000</Damage> <!--EDIT ADD-->
 			<DamageBonus type="Building">2.500000</DamageBonus>
 		</ProtoAction>
 	</ProtoUnitOverride>
@@ -261,6 +264,7 @@
 		<Tactics>pvp_spearman.tactics</Tactics>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Ba_Inf_Spearman">
+	<TrainPoints>12.0000</TrainPoints> <!--EDIT ADD-->
 		<ProtoAction>
 			<Name>MeleeAttack</Name>
 			<Damage>11.000000</Damage>
@@ -352,6 +356,7 @@
 		<TrainPoints>16.0000</TrainPoints>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Gr_Cav_Podromos">
+		<Armor type="Ranged" value="0.2000"/> <!--EDIT ADD-->
 		<MaxVelocity>11.0000</MaxVelocity>
 		<MaxRunVelocity>16.50000</MaxRunVelocity>
 	</ProtoUnitOverride>
@@ -381,6 +386,15 @@
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Eg_Spc_PriestSet">
 		<Cost resourcetype="Gold">80.0000</Cost>
+		<!-- EDIT ADD PROTOACTION -->
+		<ProtoAction>
+			<Name>Convert</Name>
+			<MaxRange>28.000000</MaxRange>
+			<Rate type="StandardConvertable">13.000000</Rate>
+			<Rate type="ConvertableCavalry">13.000000</Rate>
+			<Rate type="ConvertableInfantry">13.000000</Rate>
+			<Rate type="ConvertableSiege">13.000000</Rate>
+		</ProtoAction>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Eg_Spc_PriestPtah">
 		<TrainPoints>30.0000</TrainPoints>
@@ -405,8 +419,8 @@
 		<MaxRunVelocity>15.00000</MaxRunVelocity>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Pe_Cav_Cataphract">
-		<MaxVelocity>8.0000</MaxVelocity>
-		<MaxRunVelocity>12.00000</MaxRunVelocity>
+		<MaxVelocity>9.0000</MaxVelocity> <!--EDIT +1-->
+		<MaxRunVelocity>13.50000</MaxRunVelocity> <!--EDIT +1.5-->
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Ce_Inf_WoadRaider">
 		<MaxHitpoints>270.0000</MaxHitpoints>
@@ -457,7 +471,46 @@
 		</ProtoAction>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Ba_Arc_WarChariot">
+	<MaxHitpoints>700.0000</MaxHitpoints> <!--EDIT ADD-->
 		<MaxVelocity>9.0000</MaxVelocity>
 		<MaxRunVelocity>13.50000</MaxRunVelocity>
 	</ProtoUnitOverride>
+	
+	<!-- Celeste Balance Changes New Overrides -->
+	
+	<ProtoUnitOverride name="Eg_Cav_WarElephant">
+		<Armor type="Ranged" value="0.4000"/>
+		<MaxVelocity>7.0000</MaxVelocity>
+		<MaxRunVelocity>10.5000</MaxRunVelocity>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Pe_Sie_Palintonon">
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>58.000000</Damage>
+			<DamageBonus type ='Building'>4.000000</DamageBonus>
+		</ProtoAction>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Gr_Sie_Palintonon">
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>58.000000</Damage>
+			<DamageBonus type ='Building'>4.000000</DamageBonus>
+		</ProtoAction>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Eg_Sie_Trebuchet">
+	<TrainPoints>45.0000</TrainPoints>
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>58.000000</Damage>
+			<DamageBonus type ='Building'>4.000000</DamageBonus>
+		</ProtoAction>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Ba_Sie_Palintonon">
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>58.000000</Damage>
+			<DamageBonus type ='Building'>4.000000</DamageBonus>
+		</ProtoAction>
+	</ProtoUnitOverride>
+	
 </ProtoUnitOverrides>

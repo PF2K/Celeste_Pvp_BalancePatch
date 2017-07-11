@@ -51,4 +51,14 @@
 	<Tech name="CeltTechPalintonon_Upgrade1">PVP_CeltTechPalintonon_Upgrade1</Tech>
 	<Tech name="CeltTechVillager1">PVP_CeltTechVillager1</Tech>
 	<Tech name="BabylonTechWarChariot_Upgrade1">PVP_BabylonTechWarChariot_Upgrade1</Tech>
+
+	<!-- Celeste Balance Changes New Techs  -->
+
+	<!-- UNIT - BA -->
+	<Tech name="BabylonTechSapper_Upgrade1">PVP_BabylonTechSapper_Upgrade1</Tech>
+	<Tech name="BabylonTechLancer_Upgrade1">PVP_BabylonTechLancer_Upgrade1</Tech>
+	<Tech name="BabylonTechSiegeTower_Upgrade1">PVP_BabylonTechSiegeTower_Upgrade1</Tech>
+
+	<!-- UNIT - NO -->
+	<Tech name="NorseTechBurningPitch1">PVP_NorseTechBurningPitch1</Tech>
 </TechTreeOverrides>
