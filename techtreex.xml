@@ -18522,7 +18522,7 @@
 		<ContentPack>2</ContentPack>
 		<Flag>Shadow</Flag>
 		<Prereqs>
-			<TechStatus status="Active">EgyptCapStartCiv</TechStatus>
+			<TechStatus status="Active">PVP_EgyptCapStartCiv</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type="Data" amount="1.1500" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
@@ -31059,8 +31059,8 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	
-	<!-- AGE UP - GR - Celeste Balance Changes New Techs (by PF2K)  -->
+
+	<!-- AGE UP - GR - Celeste Balance Changes New Techs  -->
 	<Tech name="PVP_GreekCapAge2" type="Normal">
 		<DBID>5726</DBID>
 		<DisplayNameID>49767</DisplayNameID>
@@ -31086,8 +31086,8 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	
-	<!-- AGE UP - PE - Celeste Balance Changes New Techs (by PF2K)  -->
+
+	<!-- AGE UP - PE - Celeste Balance Changes New Techs  -->
 	<Tech name="PVP_PersiaCapAge2" type="Normal">
 		<DBID>5727</DBID>
 		<DisplayNameID>49767</DisplayNameID>
@@ -31113,8 +31113,26 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	
-	<!-- AGE UP - EG - Celeste Balance Changes New Techs (by PF2K)  -->
+
+	<!-- AGE UP - EG - Celeste Balance Changes New Techs  -->
+	<Tech name="PVP_EgyptCapStartCiv" type="Normal">
+		<DBID>5754</DBID>
+		<DisplayNameID>51264</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<ContentPack>2</ContentPack>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">CapitolBldgEgypt</Target>
+			</Effect>
+			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">CapitolBldgAll</Target>
+			</Effect>
+			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Eg_Cav_Scout</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="PVP_EgyptCapAge2" type="Normal">
 		<DBID>5728</DBID>
 		<Status>UNOBTAINABLE</Status>
@@ -31363,7 +31381,7 @@
 		</Effects>
 	</Tech>
 
-	<!-- AGE UP - NO - Celeste Balance Changes New Techs (by PF2K)  -->
+	<!-- AGE UP - NO - Celeste Balance Changes New Techs  -->
 	<Tech name="PVP_NorseCapAge2" type="Normal">
 		<DBID>5748</DBID>
 		<DisplayNameID>67453</DisplayNameID>
@@ -31390,7 +31408,7 @@
 		</Effects>
 	</Tech>
 
-	<!-- AGE UP - CE - Celeste Balance Changes New Techs (by PF2K)  -->
+	<!-- AGE UP - CE - Celeste Balance Changes New Techs  -->
 	<Tech name="PVP_CeltCapAge2" type="Normal">
 		<DBID>5747</DBID>
 		<DisplayNameID>59086</DisplayNameID>
@@ -31419,8 +31437,23 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	
 
+	<!-- AGE UP - BA - Celeste Balance Changes New Techs  -->
+	<Tech name="PVP_BabylonCapStartCiv" type="Normal">
+		<DBID>5755</DBID>
+		<DisplayNameID>66146</DisplayNameID>
+		<Status>UNOBTAINABLE</Status>
+		<ContentPack>22</ContentPack>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">CapitolBldgBabylon</Target>
+			</Effect>
+			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">CapitolBldgAll</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="PVP_BabylonCapAge2" type="Normal">
 		<DBID>5743</DBID>
 		<Status>UNOBTAINABLE</Status>
@@ -31470,14 +31503,14 @@
 			<Effect type="TechStatus" status="obtainable">PVP_BabylonRMAge2</Effect>
 		</Effects>
 	</Tech>
-    <Tech name="PVP_BabylonTechAge1_Shadow" type="Normal">
+	<Tech name="PVP_BabylonTechAge1_Shadow" type="Normal">
 		<DBID>5746</DBID>
 		<ResearchPoints>0.0000</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>terrain\trees\berrybush_icon_64</Icon>
 		<ContentPack>22</ContentPack>
 		<Prereqs>
-			<TechStatus status="Active">BabylonCapStartCiv</TechStatus>
+			<TechStatus status="Active">PVP_BabylonCapStartCiv</TechStatus>
 			<TypeCount unit="Ba_Bldg_Ziggurat" count="1.0000" state="aliveState" operator="gte"/>
 		</Prereqs>
 		<Effects>
@@ -31487,7 +31520,7 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	
+
 	<Tech name="PVP_Ba_Ct_BldgZiggurat1" type="Normal">
 		<DBID>5749</DBID>
 		<DisplayNameID>66122</DisplayNameID>
@@ -31506,9 +31539,8 @@
 			<Effect type="TechStatus" status="obtainable">PVP_BabylonCapAge2</Effect>
 		</Effects>
 	</Tech>
-		
-			<!-- Sapper Champion - Celeste Balance Changes New Techs (by PF2K)  -->
-			
+
+	<!-- Sapper Champion - Celeste Balance Changes New Techs  -->
 	<Tech name="PVP_BabylonTechSapper_Upgrade1" type="Normal">
 		<DBID>5750</DBID>
 		<DisplayNameID>66216</DisplayNameID>
@@ -31535,8 +31567,8 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	
-				<!-- Lancer Champion - Celeste Balance Changes New Techs (by PF2K)  -->
+
+	<!-- Lancer Champion - Celeste Balance Changes New Techs  -->
 	<Tech name="PVP_BabylonTechLancer_Upgrade1" type="Normal">
 		<DBID>5751</DBID>
 		<DisplayNameID>66167</DisplayNameID>
@@ -31560,9 +31592,8 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	
-				<!-- Burning Pitch Removal (made it require the non pvp age3 tech to mess it up) - Celeste Balance Changes New Techs (by PF2K)  -->
-				
+
+	<!-- Burning Pitch Removal (made it require the non pvp age3 tech to mess it up) - Celeste Balance Changes New Techs  -->
 	<Tech name="PVP_NorseTechBurningPitch1" type="Normal">
 		<DBID>5752</DBID>
 		<DisplayNameID>67787</DisplayNameID>
@@ -31572,7 +31603,7 @@
 		<Status>UNOBTAINABLE</Status>
 		<Icon>\UserInterface\Icons\Techs\C07TechBurningPitch_ua</Icon>
 		<RolloverTextID>67786</RolloverTextID>
-		<ContentPack>22</ContentPack>
+		<ContentPack>24</ContentPack>
 		<Flag>IsAward</Flag>
 		<Prereqs>
 			<TechStatus status="Active">NorseCapAge3</TechStatus>
@@ -31584,9 +31615,8 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	
-			<!-- Babylon Siege Tower Champion - Celeste Balance Changes New Techs (by PF2K)  -->
-			
+
+	<!-- Babylon Siege Tower Champion - Celeste Balance Changes New Techs  -->
 	<Tech name="PVP_BabylonTechSiegeTower_Upgrade1" type="Normal">
 		<DBID>5753</DBID>
 		<DisplayNameID>66176</DisplayNameID>
@@ -31613,9 +31643,8 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	
-			<!-- Champion Champion - Celeste Balance Changes New Techs (by PF2K)  -->
-				
+
+	<!-- Champion Champion - Celeste Balance Changes New Techs  -->
 	<Tech name="PVP_CeltTechChampion_Upgrade1" type="Normal">
 		<DBID>5257</DBID>
 		<DisplayNameID>64654</DisplayNameID>
@@ -31642,7 +31671,7 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	
+
 	<!-- Note in case I forget: I removed age 4 walls by changing the requirement of the age 4 wall to be the pve tech of it -->
-	
+
 </TechTree>
