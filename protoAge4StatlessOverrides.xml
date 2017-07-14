@@ -156,9 +156,10 @@
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Ba_Sie_SiegeTower">
 		<Armor type="Cavalry" value="0.0000"/>
+		<MaxHitpoints>600.0000</MaxHitpoints> <!--EDIT ADD-->
+		<Cost resourcetype="Wood">250.0000</Cost> <!-- EDIT ADD-->
 		<ProtoAction>
 			<Name>MeleeAttack</Name>
-			<MaxHitpoints>600.0000</MaxHitpoints> <!--EDIT ADD-->
 			<DamageBonus type="Building">6.000000</DamageBonus>
 		</ProtoAction>
 	</ProtoUnitOverride>
