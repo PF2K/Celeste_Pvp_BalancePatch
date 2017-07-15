@@ -378,7 +378,7 @@
 		<TrainPoints>8.0000</TrainPoints>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Eg_Cav_CamelRider">
-		<MaxHitpoints>200.0000</MaxHitpoints> <!-- edit add-->
+		<MaxHitpoints>400.0000</MaxHitpoints> <!-- edit add-->
 		<Armor type="Ranged" value="0.2000"/>
 		<MaxVelocity>11.0000</MaxVelocity>
 		<MaxRunVelocity>16.50000</MaxRunVelocity>
