@@ -10839,7 +10839,7 @@
 	</Tech>
 	<Tech name="TechMurderHoles" type="Normal">
 		<DBID>4448</DBID>
-		<DisplayNameID>z</DisplayNameID>
+		<DisplayNameID>58167</DisplayNameID>
 		<Cost resourcetype="Wood">50.0000</Cost>
 		<Cost resourcetype="Gold">50.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
