@@ -16110,6 +16110,8 @@
 		<string _locid="110029">Improves &lt;color=0.32 0.65 1.0&gt;Lancer&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;Grants Charge Attack\n(x3.0 Bonus Damage)&lt;/color&gt;</string>
 		<string _locid="110030">Improves &lt;color=0.32 0.65 1.0&gt;Siege Tower&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;+50% Health&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;Grants Larger Area Damage&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;Grants Snare Immunity&lt;/color&gt;</string>
 		<string _locid="110031">Improves &lt;color=0.32 0.65 1.0&gt;Champion&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;+25% Health&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+10% Damage&lt;/color&gt;</string>
+		<string _locid="110032">Freyja's Blessing</string>
+		<string _locid="110033">Improves &lt;color=0.32 0.65 1.0&gt;Guard Tower&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;+25% Bonus Damage vs. &lt;/color&gt;&lt;color=0.32 0.65 1.0&gt;Ranged&lt;/color&gt;</string>
 	
 		<!-- Celeste Chat Channel -->
 		<string _locid="160121" >PVP</string>

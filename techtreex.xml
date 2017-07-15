@@ -10839,7 +10839,7 @@
 	</Tech>
 	<Tech name="TechMurderHoles" type="Normal">
 		<DBID>4448</DBID>
-		<DisplayNameID>58167</DisplayNameID>
+		<DisplayNameID>z</DisplayNameID>
 		<Cost resourcetype="Wood">50.0000</Cost>
 		<Cost resourcetype="Gold">50.0000</Cost>
 		<ResearchPoints>30.0000</ResearchPoints>
@@ -31143,7 +31143,7 @@
 	</Tech>
 
 	<!-- UNIT - NO -->
-	<Tech name="PVP_NorseTechBurningPitch1" type="Normal"> <!-- made the tech unavailable by makeing the prerequisite for the tech NorseCapAge3 instead of PVP_NorseCapAge3 -->
+	<Tech name="PVP_NorseTechBurningPitch1" type="Normal"> <!-- made the tech unavailable by making the prerequisite for the tech NorseCapAge3 instead of PVP_NorseCapAge3 -->
 		<DBID>5729</DBID>
 		<DisplayNameID>67787</DisplayNameID>
 		<Cost resourcetype="Wood">300.0000</Cost>
@@ -31162,6 +31162,27 @@
 			<Effect type="Data" action="BurningAttack" amount="0.0000" scaling="0.0000" subtype="ActionEnable" relativity="Absolute">
 				<Target type="ProtoUnit">No_Bldg_Fortress</Target>
 			</Effect>
+		</Effects>
+	</Tech>
+	
+	<Tech name="PVP_NorseTechTowerFreyja1" type="Normal">
+		<DBID>5730</DBID>
+		<DisplayNameID>110032</DisplayNameID>
+		<Cost resourcetype="Wood">100.0000</Cost>
+		<Cost resourcetype="Gold">100.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>UserInterface\Icons\Techs\TechTowerFreyja1_ua</Icon>
+		<RolloverTextID>110033</RolloverTextID>
+		<ContentPack>24</ContentPack>
+		<Flag>IsAward</Flag>
+		<Prereqs>
+			<SpecificAge>Age1</SpecificAge>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1.2500" scaling="0.0000" subtype="DamageBonus" unittype="AbstractArcher" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">No_Bldg_GuardTower</Target>
+			</Effect>	
 		</Effects>
 	</Tech>
 	

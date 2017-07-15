@@ -319,6 +319,7 @@
 		<MaxHitpoints>6750.0000</MaxHitpoints>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Gr_Bldg_GuardTower">
+		<MaxHitpoints>900.0000</MaxHitpoints>
 		<Cost resourcetype="Wood">50.0000</Cost>
 		<Cost resourcetype="Stone">100.0000</Cost>
 	</ProtoUnitOverride>
@@ -377,6 +378,7 @@
 		<TrainPoints>8.0000</TrainPoints>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Eg_Cav_CamelRider">
+		<MaxHitpoints>200.0000</MaxHitpoints> <!-- edit add-->
 		<Armor type="Ranged" value="0.2000"/>
 		<MaxVelocity>11.0000</MaxVelocity>
 		<MaxRunVelocity>16.50000</MaxRunVelocity>
@@ -560,7 +562,13 @@
 			<Name>RangedAttack</Name>
 			<Damage>18.000000</Damage>
 		</ProtoAction>
-	</ProtoUnitOverride>		
-		
-	
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="No_Inf_Chief">
+		<Cost resourcetype="Food">300.0000</Cost>
+		<Cost resourcetype="Gold">300.0000</Cost>
+	</ProtoUnitOverride>	
+	<ProtoUnitOverride name="Gr_Bldg_Temple">
+		<Cost resourcetype="Wood">250.0000</Cost>
+	</ProtoUnitOverride>	
+			
 </ProtoUnitOverrides>
