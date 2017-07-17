@@ -16600,6 +16600,8 @@
 		<string _locid="110029">Verbessert &lt;color=0.32 0.65 1.0&gt;Lanzenkämpfer&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;*&lt;color=0.0 1.0 0.0&gt;Bietet Sturmangriff\n(x3,0 Extraschaden)&lt;/color&gt;</string>
 		<string _locid="110030">Verbessert &lt;color=0.32 0.65 1.0&gt;Belagerungstürme&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;Lebenspunkte +50%&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;Bietet größeren Flächenschaden&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;Bietet Verlangsamungsimmunität&lt;/color&gt;</string>
 		<string _locid="110031">Verbessert &lt;color=0.32 0.65 1.0&gt;Held&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;Lebenspunkte +25%&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;Schaden +10%&lt;/color&gt;</string>
+		<string _locid="110032">Freyja's Blessing</string>
+		<string _locid="110033">Improves &lt;color=0.32 0.65 1.0&gt;Guard Tower&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;+25% Bonus Damage vs. &lt;/color&gt;&lt;color=0.32 0.65 1.0&gt;Ranged&lt;/color&gt;</string>		
 	
 		<!-- Celeste Chat Channel -->
 		<string _locid="160121" >PVP</string>
