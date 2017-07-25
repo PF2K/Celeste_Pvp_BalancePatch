@@ -16567,12 +16567,6 @@
 		
 		<!-- Custom Strings -->
 		
-		<!-- Quest Givers -->
-		
-		<!-- Master Challenge DisplayNameId-->
-		<string _locid="70000">Maestro de los Desafíos</string>
-		<!-- Master Challenge GreetingsStringId -->
-		<string _locid="70001">Estas listo para los desafios?</string>
 		<!-- Celeste Gear Pack -->
 		<string _locid="100000">Guantes del Maestro Asesino</string>
 		<string _locid="100001">Lanza pesada del sacrificio</string>
@@ -16591,26 +16585,30 @@
 		<string _locid="100014">Vigas Divinas de Cedro Pesado</string>
 		<string _locid="100015">Armadura pesada del destructor</string>
 		<string _locid="100016">Arma arrojadiza divina de dyionisio</string>
-		<!-- CELESTE ISLAND -->
-		<string _locid="100017">Celeste Island</string>
-		<string _locid="100018">Under Construction</string>
-		
 		<!-- Celeste PVP Balance Changes -->
 		<string _locid="110028">Mejora el &lt;color=0.32 0.65 1.0&gt;zapador&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;+50% de daño adicional contra &lt;/color&gt;&lt;color=0.32 0.65 1.0&gt;edificios&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+15% de velocidad&lt;/color&gt;</string>
 		<string _locid="110029">Mejora el &lt;color=0.32 0.65 1.0&gt;lancero&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;Otorga ataque de carga\n(x3,0 de daño adicional)&lt;/color&gt;</string>
 		<string _locid="110030">Mejora la &lt;color=0.32 0.65 1.0&gt;torre de asedio&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;+50% de salud&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;Otorga un mayor daño zonal&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;Otorga inmunidad contra ralentización&lt;/color&gt;</string>
 		<string _locid="110031">Mejora el &lt;color=0.32 0.65 1.0&gt;campeón&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;+50% de salud&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;+35% de daño&lt;/color&gt;*&lt;</string>
 		<string _locid="110032">Freyja's Blessing</string>
-		<string _locid="110033">Improves &lt;color=0.32 0.65 1.0&gt;Guard Tower&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;+25% Bonus Damage vs. &lt;/color&gt;&lt;color=0.32 0.65 1.0&gt;Ranged&lt;/color&gt;</string>		
-	
+		<string _locid="110033">Improves &lt;color=0.32 0.65 1.0&gt;Guard Tower&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;+25% Bonus Damage vs. &lt;/color&gt;&lt;color=0.32 0.65 1.0&gt;Ranged&lt;/color&gt;</string>
 		<!-- Celeste Chat Channel -->
-		<string _locid="160121" >PVP</string>
-		<string _locid="160122" >DE</string>
-		<string _locid="160123" >ES</string>
-		<string _locid="160124" >FR</string>
-		<string _locid="160125" >IT</string>
-		<string _locid="160127" >NL</string>
-		<string _locid="160126" >PT</string>
-		
+		<string _locid="160121">PVP</string>
+		<string _locid="160122">DE</string>
+		<string _locid="160123">ES</string>
+		<string _locid="160124">FR</string>
+		<string _locid="160125">IT</string>
+		<string _locid="160127">NL</string>
+		<string _locid="160126">PT</string>
+		<!-- CELESTE ISLAND -->
+		<string _locid="100017">Celeste Island</string>
+		<string _locid="100018">Under Construction</string>
+		<!-- NEW ATHENS -->
+		<string _locid="100019">Athens</string>
+		<string _locid="100020">Athens was the main city of ancient Greece in the region called Attica, located southeast of Continental Greece. It is a rocky, triangular peninsula that penetrates the Aegean Sea. \n \nDespite being a mountainous region, it has three important plains. Eleusis, Athens and Marathon. The port of Athens was Piraeus.\n \nIts secure location on the Acropolis and its access to the sea provided a natural advantage over potential rivals such as Thebes and Sparta. \n 	\nThe most widespread legend was that the first king had been Aegeus, whose son-successor Theseus gave splendor to the city of Athens.</string>
+		<string _locid="100021">Leader Hoplite</string>
+		<string _locid="100022">Professor Socrates</string>
+		<string _locid="100023">Hail to stranger, I still need your help, are you interested?</string>
+		<string _locid="100024">Messenger of Aristagoras</string>
 	</language>
 </stringtable>

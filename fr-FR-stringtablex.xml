@@ -16564,14 +16564,9 @@
 		<string _locid="68592">NuageDéplacementBâtimentPetit__</string>
 		<string _locid="68593">Nuage de déplacement de bâtiment </string>
 		<string _locid="68594">NuageDéplacementBâtimentPetit__</string>
+		
 		<!-- Custom Strings -->
 		
-		<!-- Quest Givers -->
-		
-		<!-- Master Challenge DisplayNameId-->
-		<string _locid="70000">Maître des défis</string>
-		<!-- Master Challenge GreetingsStringId -->
-		<string _locid="70001">Êtes-vous prêt à relever ce défi?</string>
 		<!-- Celeste Gear Pack -->
 		<string _locid="100000">Gantelets Maître Assassins</string>
 		<string _locid="100001">Lourde lance de sacrifice</string>
@@ -16590,26 +16585,30 @@
 		<string _locid="100014">Poutres de cèdre lourd divines</string>
 		<string _locid="100015">Destructeur lourd Tissage</string>
 		<string _locid="100016">Le bras de lancer du bienheureux Dionysos</string>
-		<!-- CELESTE ISLAND -->
-		<string _locid="100017">Celeste Island</string>
-		<string _locid="100018">Under Construction</string>
-		
 		<!-- Celeste PVP Balance Changes -->
 		<string _locid="110028">Améliore les &lt;color=0.32 0.65 1.0&gt;sapeurs&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;Bonus aux dégâts +50 % contre les&lt;/color&gt;&lt;color=0.32 0.65 1.0&gt;bâtiments&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;Vitesse de déplacement +15 %&lt;/color&gt;</string>
 		<string _locid="110029">Améliore les &lt;color=0.32 0.65 1.0&gt;lanciers&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;Octroie l&apos;attaque charge\n(Bonus aux dégâts x3)&lt;/color&gt;</string>
 		<string _locid="110030">Améliore les &lt;color=0.32 0.65 1.0&gt;tours de siège&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;Santé +50 %&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;Plus grande aire d&apos;effet des dégâts&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;Immunité aux pièges&lt;/color&gt;</string>
 		<string _locid="110031">Améliore les &lt;color=0.32 0.65 1.0&gt;champions&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;Santé +50%&lt;/color&gt;*&lt;color=0.0 1.0 0.0&gt;Dégâts +35%&lt;/color&gt;*&lt;</string>
 		<string _locid="110032">Freyja's Blessing</string>
-		<string _locid="110033">Improves &lt;color=0.32 0.65 1.0&gt;Guard Tower&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;+25% Bonus Damage vs. &lt;/color&gt;&lt;color=0.32 0.65 1.0&gt;Ranged&lt;/color&gt;</string>	
-		
+		<string _locid="110033">Improves &lt;color=0.32 0.65 1.0&gt;Guard Tower&lt;/color&gt;.*&lt;color=0.0 1.0 0.0&gt;+25% Bonus Damage vs. &lt;/color&gt;&lt;color=0.32 0.65 1.0&gt;Ranged&lt;/color&gt;</string>
 		<!-- Celeste Chat Channel -->
-		<string _locid="160121" >PVP</string>
-		<string _locid="160122" >DE</string>
-		<string _locid="160123" >ES</string>
-		<string _locid="160124" >FR</string>
-		<string _locid="160125" >IT</string>
-		<string _locid="160127" >NL</string>
-		<string _locid="160126" >PT</string>
-		
+		<string _locid="160121">PVP</string>
+		<string _locid="160122">DE</string>
+		<string _locid="160123">ES</string>
+		<string _locid="160124">FR</string>
+		<string _locid="160125">IT</string>
+		<string _locid="160127">NL</string>
+		<string _locid="160126">PT</string>
+		<!-- CELESTE ISLAND -->
+		<string _locid="100017">Celeste Island</string>
+		<string _locid="100018">Under Construction</string>
+		<!-- NEW ATHENS -->
+		<string _locid="100019">Athens</string>
+		<string _locid="100020">Athens was the main city of ancient Greece in the region called Attica, located southeast of Continental Greece. It is a rocky, triangular peninsula that penetrates the Aegean Sea. \n \nDespite being a mountainous region, it has three important plains. Eleusis, Athens and Marathon. The port of Athens was Piraeus.\n \nIts secure location on the Acropolis and its access to the sea provided a natural advantage over potential rivals such as Thebes and Sparta. \n 	\nThe most widespread legend was that the first king had been Aegeus, whose son-successor Theseus gave splendor to the city of Athens.</string>
+		<string _locid="100021">Leader Hoplite</string>
+		<string _locid="100022">Professor Socrates</string>
+		<string _locid="100023">Hail to stranger, I still need your help, are you interested?</string>
+		<string _locid="100024">Messenger of Aristagoras</string>
 	</language>
 </stringtable>
