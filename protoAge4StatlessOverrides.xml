@@ -153,6 +153,7 @@
 		<Cost resourcetype="Wood">120.0000</Cost>
 		<Cost resourcetype="Gold">0.0000</Cost>
 		<Armor type="Cavalry" value="0.0000"/>
+		<MaxHitpoints>300.0000</MaxHitpoints> <!--EDIT ADD-->
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Ba_Sie_SiegeTower">
 		<Armor type="Cavalry" value="0.0000"/>
@@ -266,6 +267,7 @@
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Ba_Inf_Spearman">
 	<TrainPoints>12.0000</TrainPoints> <!--EDIT ADD-->
+	<MaxHitpoints>230.0000</MaxHitpoints> <!--EDIT ADD-->
 		<ProtoAction>
 			<Name>MeleeAttack</Name>
 			<Damage>11.000000</Damage>
@@ -319,7 +321,6 @@
 		<MaxHitpoints>6750.0000</MaxHitpoints>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Gr_Bldg_GuardTower">
-		<MaxHitpoints>900.0000</MaxHitpoints> <!-- edit add-->
 		<Cost resourcetype="Wood">50.0000</Cost>
 		<Cost resourcetype="Stone">100.0000</Cost>
 	</ProtoUnitOverride>
@@ -340,8 +341,10 @@
 		<Cost resourcetype="Stone">100.0000</Cost>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="No_Bldg_GuardTower">
+		<MaxHitpoints>900.0000</MaxHitpoints> <!-- edit add-->
 		<Cost resourcetype="Wood">50.0000</Cost>
 		<Cost resourcetype="Stone">100.0000</Cost>
+		<Tech row ='1' page ='0' column ='1'>PVP_NorseTechTowerFreyja1</Tech> <!-- edit add-->
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Gr_Inf_Hypaspist">
 		<TrainPoints>12.0000</TrainPoints>
@@ -356,6 +359,11 @@
 		<MaxRunVelocity>15.0000</MaxRunVelocity>
 		<Cost resourcetype="Gold">45.0000</Cost>
 		<TrainPoints>16.0000</TrainPoints>
+		<ProtoAction> <!--EDIT ADD-->
+			<Name>RangedAttack</Name>
+			<Damage>10.000000</Damage>
+			<DamageBonus type="AbstractArcher">3.500000</DamageBonus>
+		</ProtoAction>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Gr_Cav_Podromos">
 		<Armor type="Ranged" value="0.2000"/> <!--EDIT ADD-->
@@ -460,10 +468,21 @@
 	<ProtoUnitOverride name="Ba_Cav_Lancer">
 		<MaxVelocity>10.0000</MaxVelocity>
 		<MaxRunVelocity>15.00000</MaxRunVelocity>
+		<MaxRange>1.000000</MaxRange>
+		<DamageBonus type ='AbstractInfantry'>1.750000</DamageBonus>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Ba_Arc_MountedArcher">
 		<MaxVelocity>10.0000</MaxVelocity>
 		<MaxRunVelocity>15.00000</MaxRunVelocity>
+		<ProtoAction> <!--EDIT ADD-->
+			<Name>RangedAttack</Name>
+			<Damage>11.000000</Damage>
+			<ROF>0.000000</ROF>
+			<MaxRange>15.000000</MaxRange>
+			<DamageType>Ranged</DamageType>
+			<MaxHeight>0.200000</MaxHeight>
+			<DamageBonus type ='AbstractCavalry'>3.000000</DamageBonus>
+		</ProtoAction>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Ba_Arc_ChariotArcher">
 		<MaxVelocity>8.0000</MaxVelocity>
@@ -490,6 +509,8 @@
 		<Armor type="Ranged" value="0.4000"/>
 		<MaxVelocity>7.0000</MaxVelocity>
 		<MaxRunVelocity>10.5000</MaxRunVelocity>
+		<Cost resourcetype="Food">300.0000</Cost>
+		<Cost resourcetype="Gold">100.0000</Cost>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Pe_Sie_Palintonon">
 		<ProtoAction>
@@ -570,5 +591,54 @@
 	<ProtoUnitOverride name="Gr_Bldg_Temple">
 		<Cost resourcetype="Wood">250.0000</Cost>
 	</ProtoUnitOverride>	
+	<ProtoUnitOverride name="Pe_Arc_Takabara">
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<Damage>10.000000</Damage>
+			<DamageBonus type="AbstractArcher">2.500000</DamageBonus>
+		</ProtoAction>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Ce_Inf_Champion">
+		<MaxHitpoints>450.0000</MaxHitpoints>
+		<MaxVelocity>5.5000</MaxVelocity>
+		<MaxRunVelocity>8.2500</MaxRunVelocity>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Ce_Spc_Druid">
+		<ProtoAction>
+			<Name>Heal</Name>
+			<Rate type ='LogicalTypeHealed'>7.000000</Rate>
+			<MaxRange>15.000000</MaxRange>
+		</ProtoAction>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Bear">
+		<MaxHitpoints>100.0000</MaxHitpoints>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Lion">
+		<MaxHitpoints>100.0000</MaxHitpoints>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Crocodile">
+	<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<Damage>12.000000</Damage>
+			<ROF>0.000000</ROF>
+			<DamageType>Hand</DamageType>
+	</ProtoAction>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Rhino">
+		<MaxHitpoints>200.0000</MaxHitpoints>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Ba_Bldg_Garden">
+		<BuildLimit>2</BuildLimit>
+		<BuildPoints>45.0000</BuildPoints>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Ba_Civ_Villager">
+		<TrainPoints>17.0000</TrainPoints>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Ba_Arc_Bowman">
+		<ProtoAction>
+			<Name>RangedAttack</Name>
+			<MaxRange>18.000000</MaxRange>
+		</ProtoAction>
+	</ProtoUnitOverride>
 			
 </ProtoUnitOverrides>
