@@ -31195,9 +31195,9 @@
 	<Tech name="PVP_NorseTechTowerFreyja1" type="Normal">
 		<DBID>5730</DBID>
 		<DisplayNameID>110032</DisplayNameID>
-		<Cost resourcetype="Wood">100.0000</Cost>
-		<Cost resourcetype="Gold">100.0000</Cost>
-		<ResearchPoints>30.0000</ResearchPoints>
+		<Cost resourcetype="Wood">150.0000</Cost>
+		<Cost resourcetype="Gold">150.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>UserInterface\Icons\Techs\TowerTechFreyja1_ua</Icon>
 		<RolloverTextID>110033</RolloverTextID>

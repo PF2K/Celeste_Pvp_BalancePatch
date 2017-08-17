@@ -341,7 +341,7 @@
 		<Cost resourcetype="Stone">100.0000</Cost>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="No_Bldg_GuardTower">
-		<MaxHitpoints>900.0000</MaxHitpoints> <!-- edit add-->
+		<MaxHitpoints>800.0000</MaxHitpoints> <!-- edit add-->
 		<Cost resourcetype="Wood">50.0000</Cost>
 		<Cost resourcetype="Stone">100.0000</Cost>
 		<Tech row ='1' page ='0' column ='1'>PVP_NorseTechTowerFreyja1</Tech> <!-- edit add-->
@@ -629,10 +629,10 @@
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Ba_Bldg_Garden">
 		<BuildLimit>2</BuildLimit>
-		<BuildPoints>45.0000</BuildPoints>
+		<BuildPoints>40.0000</BuildPoints>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Ba_Civ_Villager">
-		<TrainPoints>17.0000</TrainPoints>
+		<TrainPoints>16.0000</TrainPoints>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Ba_Arc_Bowman">
 		<ProtoAction>
