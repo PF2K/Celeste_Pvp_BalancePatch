@@ -468,7 +468,6 @@
 	<ProtoUnitOverride name="Ba_Cav_Lancer">
 		<MaxVelocity>10.0000</MaxVelocity>
 		<MaxRunVelocity>15.00000</MaxRunVelocity>
-		<MaxRange>1.000000</MaxRange>
 		<DamageBonus type ='AbstractInfantry'>1.750000</DamageBonus>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Ba_Arc_MountedArcher">
