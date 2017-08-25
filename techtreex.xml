@@ -26444,7 +26444,7 @@
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>UserInterface\Icons\Techs\AgeUpL3_ua</Icon>
-		<RolloverTextID>66640</RolloverTextID>
+		<RolloverTextID>110036</RolloverTextID>
 		<ContentPack>22</ContentPack>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>IsAward</Flag>
@@ -26462,7 +26462,7 @@
 			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
 				<Target type="ProtoUnit">Ba_Bldg_TownCenter</Target>
 			</Effect>
-			<Effect type="Data" amount="4.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
+			<Effect type="Data" amount="2.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute"> <!--EDIT REDUCED +4 to +2-->
 				<Target type="ProtoUnit">Ba_Bldg_Garden</Target>
 			</Effect>
 			<Effect type="TechStatus" status="obtainable">PVP_BabylonRMAge4</Effect>
@@ -26569,7 +26569,7 @@
 		<ResearchPoints>75.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>UserInterface\Icons\Techs\AgeUpL4_ua</Icon>
-		<RolloverTextID>66659</RolloverTextID>
+		<RolloverTextID>110035</RolloverTextID>
 		<ContentPack>22</ContentPack>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>IsAward</Flag>
@@ -26588,7 +26588,7 @@
 				<Target type="ProtoUnit">Ba_Bldg_TownCenter</Target>
 			</Effect>
 			<Effect type="TechStatus" status="active">PVP_BabylonRMAge4</Effect>
-			<Effect type="Data" amount="6.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute"> <!--edit made gardens +6 from +4-->
+			<Effect type="Data" amount="2.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute"> <!--EDIT REDUCED +4 to +2-->
 				<Target type="ProtoUnit">Ba_Bldg_Garden</Target>
 			</Effect>
 		</Effects>
@@ -27272,7 +27272,7 @@
 				<Target type="ProtoUnit">Ce_Inf_Champion</Target>
 			</Effect> <!--EDIT ORG 1.5000-->
 			<Effect type="SetName" proto="Ce_Inf_Champion" culture="none" newName="66954"/>
-			<Effect type="Data" amount="1.5000" scaling="0.0000" subtype="CostAll" relativity="Percent">
+			<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="CostAll" relativity="Percent">
 				<Target type="ProtoUnit">Ce_Inf_Champion</Target>
 			</Effect>
 			<!--<Effect type="Data" amount="1.0000" scaling="0.0000" subtype="PopulationCount" relativity="Absolute">
@@ -29522,7 +29522,7 @@
 		<ResearchPoints>60.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Icon>UserInterface\Icons\Techs\AgeUpL3_ua</Icon>
-		<RolloverTextID>67649</RolloverTextID>
+		<RolloverTextID>110040</RolloverTextID> <!-- EDIT ORG 67649-->
 		<ContentPack>24</ContentPack>
 		<Flag>AgeUpgrade</Flag>
 		<Flag>IsAward</Flag>
@@ -29540,6 +29540,12 @@
 			<Effect type="Data" amount="1.3330" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">AbstractTownCenter</Target>
 			</Effect>
+			<Effect type="Data" amount="1.2500" scaling="0.0000" subtype="DamageBonus" unittype="AbstractArcher" allactions="1" relativity="Percent"> <!--EDIT ADDED-->
+				<Target type="ProtoUnit">No_Bldg_GuardTower</Target>
+			</Effect>
+			<Effect type="Data" amount="1.2500" scaling="0.0000" subtype="DamageBonus" unittype="AbstractArcher" allactions="1" relativity="Percent"> <!--EDIT ADDED-->
+				<Target type="ProtoUnit">AbstractGuardTower</Target>
+			</Effect>				
 		</Effects>
 	</Tech>
 	<Tech name="NorthernHero01_Action02" type="Normal">
@@ -31142,14 +31148,14 @@
 		</Effects>
 	</Tech>
 	
-<Tech name="PVP_BabylonTechSpearman_Upgrade1" type="Normal">
+<Tech name="PVP_BabylonTechSpearman_Upgrade1" type="Normal"> <!-- this is going to be here for now but currently it'll be the same as the original tech until we decide to change it later for a future patch-->
         <DBID>5731</DBID>
         <DisplayNameID>66202</DisplayNameID>
         <Cost resourcetype="Gold">200.0000</Cost>
         <ResearchPoints>20.0000</ResearchPoints>
         <Status>UNOBTAINABLE</Status>
         <Icon>\UserInterface\Icons\Techs\C06TechSpearmanChampion_ua</Icon>
-        <RolloverTextID>110034</RolloverTextID>
+        <RolloverTextID>66201</RolloverTextID> <!--EDIT NEW 110034 ORG 66201-->
         <ContentPack>22</ContentPack>
         <Flag>IsAward</Flag>
         <Prereqs>
@@ -31163,7 +31169,7 @@
             <Effect type="Data" amount="1.2500" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">Ba_Inf_Spearman</Target>
             </Effect>
-            <Effect type="Data" amount="1.0870" scaling="0.0000" subtype="Hitpoints" relativity="Percent">
+            <Effect type="Data" amount="1.0000" scaling="0.0000" subtype="Hitpoints" relativity="Percent"> <!--EDIT ORG 1.0868-->
                 <Target type="ProtoUnit">Ba_Inf_Spearman</Target>
             </Effect>
         </Effects>
@@ -31205,6 +31211,7 @@
 		<Flag>IsAward</Flag>
 		<Prereqs>
 			<SpecificAge>Age1</SpecificAge>
+			<TechStatus status="Active">PVP_NorseCapAge2</TechStatus>
 		</Prereqs>
 		<Effects>
 			<Effect type="Data" amount="1.2500" scaling="0.0000" subtype="DamageBonus" unittype="AbstractArcher" allactions="1" relativity="Percent">
@@ -31338,6 +31345,49 @@
 			<Effect type="SetName" proto="Ba_Arc_Slinger" culture="none" newName="66231"/>
 			<Effect type="Data" amount="100000.0000" scaling="0.0000" subtype="DamageBonusReduction" relativity="Percent">
 				<Target type="ProtoUnit">Ba_Arc_Slinger</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+
+	<Tech name="PVP_BabylonTechGarden_Upgrade1" type="Normal">
+		<DBID>5737</DBID>
+		<DisplayNameID>110038</DisplayNameID>
+		<Cost resourcetype="Gold">100.0000</Cost>
+		<Cost resourcetype="Wood">100.0000</Cost>
+		<ResearchPoints>90.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>\UserInterface\Icons\Techs\C06TechLargeGarden_ua</Icon>
+		<RolloverTextID>110037</RolloverTextID>
+		<ContentPack>22</ContentPack>
+		<Flag>IsAward</Flag>
+		<Prereqs>
+			<SpecificAge>Age2</SpecificAge>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="2.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Ba_Bldg_Garden</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	
+	<Tech name="PVP_BabylonTechGarden_Upgrade2" type="Normal">
+		<DBID>5738</DBID>
+		<DisplayNameID>110039</DisplayNameID>
+		<Cost resourcetype="Gold">150.0000</Cost>
+		<Cost resourcetype="Wood">150.0000</Cost>
+		<ResearchPoints>120.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>\UserInterface\Icons\Techs\C06TechRoyalGarden_ua</Icon>
+		<RolloverTextID>110037</RolloverTextID>
+		<ContentPack>22</ContentPack>
+		<Flag>IsAward</Flag>
+		<Prereqs>
+			<SpecificAge>Age3</SpecificAge>
+			<TechStatus status="Active">PVP_BabylonTechGarden_Upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="2.0000" scaling="0.0000" subtype="BuildLimit" relativity="Absolute">
+				<Target type="ProtoUnit">Ba_Bldg_Garden</Target>
 			</Effect>
 		</Effects>
 	</Tech>

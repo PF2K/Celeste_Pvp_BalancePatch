@@ -75,6 +75,8 @@
 	<Tech name="BabylonTechTotalWar1">PVP_BabylonTechTotalWar1</Tech>
 	<Tech name="BabylonTechBowman_Upgrade1">PVP_BabylonTechBowman_Upgrade1</Tech>
 	<Tech name="BabylonTechSlinger_Upgrade1">PVP_BabylonTechSlinger_Upgrade1</Tech>
+	<Tech name="BabylonTechGarden_Upgrade1">PVP_BabylonTechGarden_Upgrade1</Tech>
+	<Tech name="BabylonTechGarden_Upgrade2">PVP_BabylonTechGarden_Upgrade2</Tech>
 
 	<!-- UNIT - NO -->
 	
