@@ -373,7 +373,8 @@
 		<ProtoAction> <!--EDIT ADD-->
 			<Name>RangedAttack</Name>
 			<Damage>10.000000</Damage>
-			<DamageBonus type="AbstractArcher">3.500000</DamageBonus>
+			<DamageBonus type="AbstractArcher">3.549999</DamageBonus>
+			<DamageBonus type="UnitTypeVillager1">1.200000</DamageBonus>
 		</ProtoAction>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Gr_Cav_Podromos">
