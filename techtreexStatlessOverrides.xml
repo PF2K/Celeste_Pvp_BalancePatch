@@ -53,12 +53,33 @@
 	<Tech name="BabylonTechWarChariot_Upgrade1">PVP_BabylonTechWarChariot_Upgrade1</Tech>
 
 	<!-- Celeste Balance Changes New Techs  -->
+	
+	<!-- UNIT - GE -->
+	
+	<!-- UNIT - EG -->
 
+	<!-- UNIT - PE -->
+	
+	<Tech name="PersiaTechArcRange1">PVP_PersiaTechArcRange1</Tech>
+	
+	<!-- UNIT - CE -->	
+	
+	<Tech name="CeltTechBardHall3">PVP_CeltTechBardHall3</Tech>
+	
 	<!-- UNIT - BA -->
+	
 	<Tech name="BabylonTechSapper_Upgrade1">PVP_BabylonTechSapper_Upgrade1</Tech>
 	<Tech name="BabylonTechLancer_Upgrade1">PVP_BabylonTechLancer_Upgrade1</Tech>
 	<Tech name="BabylonTechSiegeTower_Upgrade1">PVP_BabylonTechSiegeTower_Upgrade1</Tech>
+	<Tech name="BabylonTechSpearman_Upgrade1">PVP_BabylonTechSpearman_Upgrade1</Tech>
+	<Tech name="BabylonTechTotalWar1">PVP_BabylonTechTotalWar1</Tech>
+	<Tech name="BabylonTechBowman_Upgrade1">PVP_BabylonTechBowman_Upgrade1</Tech>
+	<Tech name="BabylonTechSlinger_Upgrade1">PVP_BabylonTechSlinger_Upgrade1</Tech>
+	<Tech name="BabylonTechGarden_Upgrade1">PVP_BabylonTechGarden_Upgrade1</Tech>
+	<Tech name="BabylonTechGarden_Upgrade2">PVP_BabylonTechGarden_Upgrade2</Tech>
 
 	<!-- UNIT - NO -->
+	
 	<Tech name="NorseTechBurningPitch1">PVP_NorseTechBurningPitch1</Tech>
+	
 </TechTreeOverrides>
