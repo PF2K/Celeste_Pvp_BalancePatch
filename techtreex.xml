@@ -31392,4 +31392,48 @@
 		</Effects>
 	</Tech>
 	
+	<Tech name="PVP_CeltTechGoldmine_Upgrade1" type="Normal">
+		<DBID>5739</DBID>
+		<DisplayNameID>66332</DisplayNameID>
+		<Cost resourcetype="Wood">150.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>\UserInterface\Icons\Techs\C03TechCargoExpansion_ua</Icon>
+		<RolloverTextID>66331</RolloverTextID>
+		<ContentPack>22</ContentPack>
+		<Flag>IsAward</Flag>
+		<Prereqs>
+			<SpecificAge>Age2</SpecificAge>
+			<TechStatus status="Active">PVP_CeltCapAge3</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="5.0000" scaling="0.0000" subtype="MaximumContained" relativity="Absolute">
+				<Target type="ProtoUnit">Ce_Bldg_GoldMine</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	
+	<Tech name="PVP_NorseTechRaider_Upgrade1" type="Normal">
+		<DBID>5740</DBID>
+		<DisplayNameID>67587</DisplayNameID>
+		<Cost resourcetype="Gold">300.0000</Cost>
+		<ResearchPoints>40.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>\UserInterface\Icons\Techs\C07TechRaiderChampion_ua</Icon>
+		<RolloverTextID>110041</RolloverTextID>
+		<ContentPack>24</ContentPack>
+		<Flag>IsAward</Flag>
+		<Prereqs>
+			<SpecificAge>Age2</SpecificAge>
+		</Prereqs>
+		<Effects>
+			<Effect type="SetName" proto="No_Cav_Raider" culture="none" newName="67589"/>
+			<Effect type="Data" amount="1.5000" scaling="0.0000" subtype="DamageBonus" unittype="UnitTypeVillager1" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">No_Cav_Raider</Target>
+			</Effect>
+			<Effect type="Data" amount="1.7500" scaling="0.0000" subtype="TargetSpeedBoostResist" relativity="Percent">
+				<Target type="ProtoUnit">No_Cav_Raider</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 </TechTree>

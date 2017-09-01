@@ -291,6 +291,10 @@
 			<ImpactEffect>effects\impacts\meleelite</ImpactEffect>
 		</ProtoAction>
 		<Tactics>pvp_spearman.tactics</Tactics>
+		<ProtoAction> <!-- EDIT ADD-->
+			<Name>Build</Name>
+			<Rate type ='Building'>0.750000</Rate>
+		</ProtoAction>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Gr_Bldg_LookoutTower">
 		<BuildPoints>20.0000</BuildPoints>
@@ -324,6 +328,7 @@
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="No_Bldg_Fortress">
 		<MaxHitpoints>6750.0000</MaxHitpoints>
+		<BuilderLimit>40</BuilderLimit> <!--edit add-->
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Gr_Bldg_GuardTower">
 		<BuildPoints>60.0000</BuildPoints> <!--edit add-->
@@ -606,6 +611,10 @@
 	<ProtoUnitOverride name="No_Inf_Chief">
 		<Cost resourcetype="Food">300.0000</Cost>
 		<Cost resourcetype="Gold">300.0000</Cost>
+		<ProtoAction> <!-- EDIT ADD-->
+			<Name>Build</Name>
+			<Rate type ='Building'>1.200000</Rate>
+		</ProtoAction>
 	</ProtoUnitOverride>	
 	<ProtoUnitOverride name="Gr_Bldg_Temple">
 		<Cost resourcetype="Wood">250.0000</Cost>
@@ -660,6 +669,30 @@
 		<ProtoAction>
 			<Name>RangedAttack</Name>
 			<MaxRange>18.000000</MaxRange>
+		</ProtoAction>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="No_Inf_Axeman">
+		<ProtoAction> <!-- EDIT ADD-->
+			<Name>Build</Name>
+			<Rate type ='Building'>0.750000</Rate>
+		</ProtoAction>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="No_Inf_Berserker">
+		<ProtoAction> <!-- EDIT ADD-->
+			<Name>Build</Name>
+			<Rate type ='Building'>0.750000</Rate>
+		</ProtoAction>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="No_Inf_Ulfhednar">
+		<ProtoAction> <!-- EDIT ADD-->
+			<Name>Build</Name>
+			<Rate type ='Building'>0.750000</Rate>
+		</ProtoAction>
+	</ProtoUnitOverride>
+	<ProtoUnitOverride name="No_Inf_ThrowingAxeman">
+		<ProtoAction> <!-- EDIT ADD-->
+			<Name>Build</Name>
+			<Rate type ='Building'>0.750000</Rate>
 		</ProtoAction>
 	</ProtoUnitOverride>
 			
