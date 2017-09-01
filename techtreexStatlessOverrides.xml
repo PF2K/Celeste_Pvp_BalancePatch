@@ -81,5 +81,6 @@
 	<!-- UNIT - NO -->
 	
 	<Tech name="NorseTechBurningPitch1">PVP_NorseTechBurningPitch1</Tech>
+	<Tech name="NorseTechRaider_Upgrade1">PVP_NorseTechRaider_Upgrade1</Tech>
 	
 </TechTreeOverrides>
