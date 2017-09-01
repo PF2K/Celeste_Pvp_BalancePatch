@@ -695,5 +695,9 @@
 			<Rate type ='Building'>0.750000</Rate>
 		</ProtoAction>
 	</ProtoUnitOverride>
+	<ProtoUnitOverride name="Ce_Cav_Horseman">
+		<Cost resourcetype="Food">75.0000</Cost>
+		<Cost resourcetype="Gold">40.0000</Cost>
+	</ProtoUnitOverride>
 			
 </ProtoUnitOverrides>
