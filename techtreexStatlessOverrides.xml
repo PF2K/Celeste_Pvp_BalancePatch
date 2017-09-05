@@ -61,6 +61,7 @@
 	<!-- UNIT - PE -->
 	
 	<Tech name="PersiaTechArcRange1">PVP_PersiaTechArcRange1</Tech>
+	<Tech name="PersiaTechBatteringRam_Upgrade1">PVP_PersiaTechBatteringRam_Upgrade1</Tech>	
 	
 	<!-- UNIT - CE -->	
 	

@@ -55,6 +55,11 @@
 			<Rate type="ConvertableInfantry">16.000000</Rate>
 			<Rate type="ConvertableSiege">16.000000</Rate>
 		</ProtoAction>
+		<ProtoAction> <!--edit add-->
+			<Name>Heal</Name>
+			<Rate type ='LogicalTypeHealed'>40.000000</Rate>
+			<MaxRange>16.000000</MaxRange>
+		</ProtoAction>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Eg_Spc_PriestPtah">
 		<ProtoAction>
@@ -74,6 +79,11 @@
 			<Rate type="ConvertableInfantry">16.000000</Rate>
 			<Rate type="ConvertableSiege">16.000000</Rate>
 		</ProtoAction>
+		<ProtoAction> <!--edit add-->
+			<Name>Heal</Name>
+			<Rate type ='LogicalTypeHealed'>40.000000</Rate>
+			<MaxRange>16.000000</MaxRange>
+		</ProtoAction>
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Ce_Spc_DruidAugur">
 		<ProtoAction>
@@ -84,6 +94,11 @@
 			<Rate type="ConvertableInfantry">16.000000</Rate>
 			<Rate type="ConvertableSiege">16.000000</Rate>
 		</ProtoAction>
+		<ProtoAction> <!--edit add-->
+			<Name>Heal</Name>
+			<Rate type ='LogicalTypeHealed'>40.000000</Rate>
+			<MaxRange>16.000000</MaxRange>
+		</ProtoAction>		
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="Ba_Spc_Priest">
 		<ProtoAction>
@@ -94,6 +109,11 @@
 			<Rate type="ConvertableInfantry">16.000000</Rate>
 			<Rate type="ConvertableSiege">16.000000</Rate>
 		</ProtoAction>
+		<ProtoAction> <!--edit add-->
+			<Name>Heal</Name>
+			<Rate type ='LogicalTypeHealed'>40.000000</Rate>
+			<MaxRange>16.000000</MaxRange>
+		</ProtoAction>		
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="No_Spc_Seer">
 		<ProtoAction>
@@ -375,6 +395,7 @@
 		<MaxRunVelocity>15.0000</MaxRunVelocity>
 		<Cost resourcetype="Gold">45.0000</Cost>
 		<TrainPoints>16.0000</TrainPoints>
+		<MaxHitpoints>400.0000</MaxHitpoints> <!--EDIT ADD-->
 		<ProtoAction> <!--EDIT ADD-->
 			<Name>RangedAttack</Name>
 			<Damage>10.000000</Damage>
@@ -699,5 +720,6 @@
 		<Cost resourcetype="Food">75.0000</Cost>
 		<Cost resourcetype="Gold">40.0000</Cost>
 	</ProtoUnitOverride>
+	
 			
 </ProtoUnitOverrides>

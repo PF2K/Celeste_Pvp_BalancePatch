@@ -19910,15 +19910,14 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="PVP_CeltTechVillager1" type="Normal">
+	<Tech name="PVP_CeltTechVillager1" type="Normal"> <!--EDIT org is the same as CeltTechVillager1 but the cost is 150f/150g and the research time is 40s instead of 20s-->
 		<DBID>5178</DBID>
-		<DisplayNameID>64183</DisplayNameID>
-		<Cost resourcetype="Food">100.0000</Cost>
-		<Cost resourcetype="Gold">100.0000</Cost>
-		<ResearchPoints>20.0000</ResearchPoints>
+		<DisplayNameID>110042</DisplayNameID> <!--EDIT ORG 64183-->
+		<Cost resourcetype="Wood">150.0000</Cost>
+		<ResearchPoints>30.0000</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
-		<Icon>\UserInterface\Icons\Techs\C03TechCalltoArms_ua</Icon>
-		<RolloverTextID>64182</RolloverTextID>
+		<Icon>\UserInterface\Icons\Techs\C03TechCargoExpansion_ua</Icon> <!--edit org C03TechCalltoArms_ua-->
+		<RolloverTextID>110043</RolloverTextID> <!--EDIT ORG 64182-->
 		<ContentPack>5</ContentPack>
 		<Flag>IsAward</Flag>
 		<Prereqs>
@@ -19926,9 +19925,12 @@
 			<TechStatus status="Active">PVP_TechLoom1</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" action="MeleeAttack" amount="2.5000" scaling="0.0000" subtype="Damage" relativity="Percent">
-				<Target type="ProtoUnit">Ce_Civ_Villager</Target>
-			</Effect>
+            <Effect type="Data" amount="5.0000" scaling="0.0000" subtype="MaximumContained" relativity="Absolute">
+                <Target type="ProtoUnit">Ce_Bldg_GoldMine</Target>
+            </Effect>
+			<Effect type="Data" amount="5.0000" scaling="0.0000" subtype="BuilderLimit" relativity="Absolute">
+                <Target type="ProtoUnit">Ce_Bldg_GoldMine</Target>
+            </Effect>
 		</Effects>
 	</Tech>
 	<Tech name="GreekTechBallista_Upgrade1" type="Normal">
@@ -31410,7 +31412,11 @@
 			<Effect type="Data" amount="5.0000" scaling="0.0000" subtype="MaximumContained" relativity="Absolute">
 				<Target type="ProtoUnit">Ce_Bldg_GoldMine</Target>
 			</Effect>
+			<Effect type="Data" amount="5.0000" scaling="0.0000" subtype="BuilderLimit" relativity="Absolute">
+                <Target type="ProtoUnit">Ce_Bldg_GoldMine</Target>
+            </Effect>
 		</Effects>
+		
 	</Tech>
 	
 	<Tech name="PVP_NorseTechRaider_Upgrade1" type="Normal">
@@ -31436,4 +31442,72 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	
+	<Tech name="PVP_PersiaTechVillagerUnlock1" type="Normal">
+        <DBID>5741</DBID>
+        <DisplayNameID>62117</DisplayNameID>
+        <ResearchPoints>1.0000</ResearchPoints>
+        <Status>UNOBTAINABLE</Status>
+        <Icon>\UserInterface\Icons\Techs\C04TechPaidLabor_ua</Icon>
+        <RolloverTextID>62116</RolloverTextID>
+        <ContentPack>6</ContentPack>
+        <Flag>IsAward</Flag>
+        <Prereqs>
+            <SpecificAge>Age2</SpecificAge>
+        </Prereqs>
+        <Effects>
+            <Effect type="TechStatus" status="active">PVP_PersiaTechVillager1</Effect>
+        </Effects>
+    </Tech>
+    
+    <Tech name="PVP_PersiaTechVillager1" type="Normal">
+        <DBID>5742</DBID>
+        <ResearchPoints>1.0000</ResearchPoints>
+        <Status>UNOBTAINABLE</Status>
+        <Icon>\UserInterface\Icons\Techs\C04TechPaidLabor_ua</Icon>
+        <ContentPack>6</ContentPack>
+        <Flag>IsAward</Flag>
+        <Prereqs>
+            <SpecificAge>Age2</SpecificAge>
+        </Prereqs>
+        <Effects>
+            <Effect type="Data" amount="-40.0000" scaling="0.0000" subtype="Cost" resource="Food" relativity="Absolute">
+                <Target type="ProtoUnit">Pe_Civ_Villager</Target>
+            </Effect>
+            <Effect type="Data" amount="40.0000" scaling="0.0000" subtype="Cost" resource="Gold" relativity="Absolute">
+                <Target type="ProtoUnit">Pe_Civ_Villager</Target>
+            </Effect>
+            <Effect type="Data" amount="0.6667" scaling="0.0000" subtype="TrainPoints" relativity="Percent">
+                <Target type="ProtoUnit">Pe_Civ_Villager</Target>
+            </Effect>
+        </Effects>
+    </Tech> 
+	
+	<Tech name="PVP_PersiaTechBatteringRam_Upgrade1" type="Normal">
+		<DBID>5743</DBID>
+		<DisplayNameID>64601</DisplayNameID>
+		<Cost resourcetype="Gold">400.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>UserInterface\Icons\Techs\GreekTechRamS_ua</Icon>
+		<RolloverTextID>64600</RolloverTextID>
+		<ContentPack>6</ContentPack>
+		<Flag>IsAward</Flag>
+		<Prereqs>
+			<SpecificAge>Age3</SpecificAge>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1.2500" scaling="0.0000" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">Pe_Sie_BatteringRam</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1500" scaling="0.0000" subtype="MaximumVelocity" relativity="Percent">
+				<Target type="ProtoUnit">Pe_Sie_BatteringRam</Target>
+			</Effect>
+			<Effect type="SetName" proto="Pe_Sie_BatteringRam" culture="none" newName="64602"/>
+			<Effect type="Data" amount="1000.0000" scaling="0.0000" subtype="TargetSpeedBoostResist" relativity="Percent">
+				<Target type="ProtoUnit">Pe_Sie_BatteringRam</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	
 </TechTree>
