@@ -31527,7 +31527,7 @@
 			<Effect type="Data" amount="-1.0000" scaling="0.0000" subtype="PopulationCount" relativity="Absolute">
 				<Target type="ProtoUnit">Eg_Arc_ElephantArcher</Target>
 			</Effect>
-			<Effect type="Data" amount="1.5000" scaling="0.0000" subtype="Armor" damagetype="Cavalry" relativity="Percent">
+			<Effect type="Data" amount="1.3000" scaling="0.0000" subtype="Armor" damagetype="Cavalry" relativity="Percent">
 				<Target type="ProtoUnit">Eg_Arc_ElephantArcher</Target>
 			</Effect>				
 			<Effect type="SetName" proto="Eg_Arc_ElephantArcher" culture="none" newName="64561"/>
