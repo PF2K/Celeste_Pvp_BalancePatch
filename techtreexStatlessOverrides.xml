@@ -58,6 +58,8 @@
 	
 	<!-- UNIT - EG -->
 
+	<Tech name="EgyptTechElephantArcher_Upgrade1">PVP_EgyptTechElephantArcher_Upgrade1</Tech>
+	
 	<!-- UNIT - PE -->
 	
 	<Tech name="PersiaTechArcRange1">PVP_PersiaTechArcRange1</Tech>

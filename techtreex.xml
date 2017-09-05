@@ -31510,4 +31510,27 @@
 		</Effects>
 	</Tech>
 	
+	<Tech name="PVP_EgyptTechElephantArcher_Upgrade1" type="Normal">
+		<DBID>5229</DBID>
+		<DisplayNameID>64560</DisplayNameID>
+		<Cost resourcetype="Gold">1200.0000</Cost>
+		<ResearchPoints>60.0000</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Icon>UserInterface\Icons\Techs\EgyptTechElephantArcherS_ua</Icon>
+		<RolloverTextID>110044</RolloverTextID>
+		<ContentPack>2</ContentPack>
+		<Flag>IsAward</Flag>
+		<Prereqs>
+			<SpecificAge>Age3</SpecificAge>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="-1.0000" scaling="0.0000" subtype="PopulationCount" relativity="Absolute">
+				<Target type="ProtoUnit">Eg_Arc_ElephantArcher</Target>
+			</Effect>
+			<Effect type="Data" amount="1.5000" scaling="0.0000" subtype="Armor" damagetype="Cavalry" relativity="Percent">
+				<Target type="ProtoUnit">Eg_Arc_ElephantArcher</Target>
+			</Effect>				
+			<Effect type="SetName" proto="Eg_Arc_ElephantArcher" culture="none" newName="64561"/>
+		</Effects>
+	</Tech>	
 </TechTree>
