@@ -703,6 +703,15 @@
 			<Name>Build</Name>
 			<Rate type ='Building'>0.750000</Rate>
 		</ProtoAction>
+		<ProtoAction>
+			<Name>MeleeAttack</Name>
+			<Damage>30.000000</Damage>
+			<ROF>0.000000</ROF>
+			<DamageFlags>Gaia Enemy</DamageFlags>
+			<DamageType>Hand</DamageType>
+			<ImpactEffect>effects\impacts\sword</ImpactEffect>
+		</ProtoAction>	
+		<Tactics>pvp_berserker.tactics</Tactics>		
 	</ProtoUnitOverride>
 	<ProtoUnitOverride name="No_Inf_Ulfhednar">
 		<ProtoAction> <!-- EDIT ADD-->
@@ -723,5 +732,5 @@
 	<ProtoUnitOverride name="Eg_Arc_ElephantArcher">
 		<MaxHitpoints>770.0000</MaxHitpoints>
 	</ProtoUnitOverride>	
-			
+						
 </ProtoUnitOverrides>
