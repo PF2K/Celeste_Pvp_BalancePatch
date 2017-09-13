@@ -31452,7 +31452,7 @@
         <ResearchPoints>1.0000</ResearchPoints>
         <Status>UNOBTAINABLE</Status>
         <Icon>\UserInterface\Icons\Techs\C04TechPaidLabor_ua</Icon>
-        <RolloverTextID>62116</RolloverTextID>
+        <RolloverTextID>110045</RolloverTextID>
         <ContentPack>6</ContentPack>
         <Flag>IsAward</Flag>
         <Prereqs>

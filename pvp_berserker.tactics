@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<tactics>
+	<action>
+		<name stringid="58251">MeleeAttack</name>
+		<type>Attack</type>
+		<maxrange>1.75</maxrange>
+		<rate type="All">1.0 </rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>MeleeAttack</anim>
+		<hitpercentanim hitpercenttype="CriticalAttack">CriticalHit</hitpercentanim>
+		<hitpercentanim hitpercenttype="KillingBlow">Finisher</hitpercentanim>
+		<impacteffect>effects\impacts\melee</impacteffect>
+		<basedamagecap>1</basedamagecap>
+		<targetspeedboost>1.0</targetspeedboost>
+		<hitpercentdamagemultiplier>2.0</hitpercentdamagemultiplier>
+		<hitpercent>1.0</hitpercent>
+		<hitpercenttype>CriticalAttack</hitpercenttype>
+	</action>
+	<action>
+		<name stringid="58252">BuildingAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>BuildingAttack</anim>
+		<maxrange>2</maxrange>
+		<rate type="Building">1.0</rate>
+		<impacteffect>effects\impacts\melee</impacteffect>
+		<active>0</active>
+	</action>
+	<action>
+		<name>Charge</name>
+		<type>Charge</type>
+		<maxrange>20.0</maxrange>
+		<rate type="All">1.0</rate>
+		<timer>8.0</timer>
+		<damagebonus type="All">1.0</damagebonus>
+		<targetspeedboost>1.50</targetspeedboost>
+		<active>0</active>
+	</action>
+	<action>
+		<name>Build</name>
+		<type>Build</type>
+		<anim>Build</anim>
+		<maxrange>0.2</maxrange>
+		<rate type="Building">1.0</rate>
+	</action>
+	<action>
+		<name>Heal</name>
+		<type>Heal</type>
+		<active>0</active>
+		<maxrange>12</maxrange>
+		<rate type="LogicalTypeHealed">50.0 </rate>
+		<anim>Heal</anim>
+	</action>
+	<action>
+		<name stringid="57824">SelfHeal</name>
+		<type>Heal</type>
+		<active>0</active>
+		<maxrange>12</maxrange>
+		<rate type="LogicalTypeHealed">2.0 </rate>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>Discover</name>
+		<type>Discover</type>
+		<anim>Idle</anim>
+		<maxrange>5.0</maxrange>
+		<rate type="AbstractNugget">0.1</rate>
+	</action>
+	<tactic>
+		Melee
+		<action priority="100">BuildingAttack</action>
+		<action priority="90">MeleeAttack</action>
+		<action>Charge</action>
+		<action>Build</action>
+		<action>Heal</action>
+		<action>Discover</action>
+		<action>SelfHeal</action>
+		<speedmodifier>1.0</speedmodifier>
+		<attacktype>LogicalTypeHandUnitsAttack</attacktype>
+		<autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype>
+		<attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype>
+		<runaway>1</runaway>
+		<autoretarget>1</autoretarget>
+		<idleanim>Idle</idleanim>
+		<boredanim>Bored</boredanim>
+		<deathanim>Death</deathanim>
+		<walkanim>Walk</walkanim>
+		<joganim>Jog</joganim>
+	</tactic>
+</tactics>
