@@ -85,5 +85,7 @@
 	
 	<Tech name="NorseTechBurningPitch1">PVP_NorseTechBurningPitch1</Tech>
 	<Tech name="NorseTechRaider_Upgrade1">PVP_NorseTechRaider_Upgrade1</Tech>
-	<Tech name="NorseCapAge2">PVP_NorseCapAge2</Tech>	
+	<Tech name="NorseCapAge2">PVP_NorseCapAge2</Tech>
+	<Tech name="NorseTechBerserker_Upgrade1">PVP_NorseTechBerserker_Upgrade1</Tech>	
+	
 </TechTreeOverrides>
